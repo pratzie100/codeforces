@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 19 | 9 |
+| 20 | 10 |
 
 ---
 
@@ -15,10 +15,11 @@
 - [bitmasks](#bitmasks) (2)
 - [brute force](#brute-force) (8)
 - [constructive algorithms](#constructive-algorithms) (3)
+- [games](#games) (1)
 - [greedy](#greedy) (8)
 - [implementation](#implementation) (8)
-- [math](#math) (9)
-- [number theory](#number-theory) (3)
+- [math](#math) (10)
+- [number theory](#number-theory) (4)
 - [sortings](#sortings) (3)
 - [strings](#strings) (1)
 
@@ -52,6 +53,12 @@
 | 1957A | [Палкоугольник](https://codeforces.com/contest/1957/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1957/A%20-%20%D0%9F%D0%B0%D0%BB%D0%BA%D0%BE%D1%83%D0%B3%D0%BE%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA/solution.cpp) |
 | 2231A | [Составьте массив](https://codeforces.com/contest/2231/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/2231/A%20-%20%D0%A1%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D1%8C%D1%82%D0%B5%20%D0%BC%D0%B0%D1%81%D1%81%D0%B8%D0%B2/solution.cpp) |
 
+### games
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1899A | [Игра с числами](https://codeforces.com/contest/1899/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1899/A%20-%20%D0%98%D0%B3%D1%80%D0%B0%20%D1%81%20%D1%87%D0%B8%D1%81%D0%BB%D0%B0%D0%BC%D0%B8/solution.cpp) |
+
 ### greedy
 
 | # | Problem | Difficulty | Solution |
@@ -84,6 +91,7 @@
 |---|---------|------------|----------|
 | 4A | [Арбуз](https://codeforces.com/contest/4/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/4/A%20-%20%D0%90%D1%80%D0%B1%D1%83%D0%B7/solution.cpp) |
 | 1748A | [Огромный квадрат](https://codeforces.com/contest/1748/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1748/A%20-%20%D0%9E%D0%B3%D1%80%D0%BE%D0%BC%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82/solution.cpp) |
+| 1899A | [Игра с числами](https://codeforces.com/contest/1899/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1899/A%20-%20%D0%98%D0%B3%D1%80%D0%B0%20%D1%81%20%D1%87%D0%B8%D1%81%D0%BB%D0%B0%D0%BC%D0%B8/solution.cpp) |
 | 1901A | [Поездка](https://codeforces.com/contest/1901/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1901/A%20-%20%D0%9F%D0%BE%D0%B5%D0%B7%D0%B4%D0%BA%D0%B0/solution.cpp) |
 | 1968A | [Максимизировать?](https://codeforces.com/contest/1968/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1968/A%20-%20%D0%9C%D0%B0%D0%BA%D1%81%D0%B8%D0%BC%D0%B8%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%3F/solution.cpp) |
 | 1985B | [Максимальная сумма кратных чисел](https://codeforces.com/contest/1985/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1985/B%20-%20%D0%9C%D0%B0%D0%BA%D1%81%D0%B8%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F%20%D1%81%D1%83%D0%BC%D0%BC%D0%B0%20%D0%BA%D1%80%D0%B0%D1%82%D0%BD%D1%8B%D1%85%20%D1%87%D0%B8%D1%81%D0%B5%D0%BB/solution.cpp) |
@@ -96,6 +104,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1899A | [Игра с числами](https://codeforces.com/contest/1899/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1899/A%20-%20%D0%98%D0%B3%D1%80%D0%B0%20%D1%81%20%D1%87%D0%B8%D1%81%D0%BB%D0%B0%D0%BC%D0%B8/solution.cpp) |
 | 1968A | [Максимизировать?](https://codeforces.com/contest/1968/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1968/A%20-%20%D0%9C%D0%B0%D0%BA%D1%81%D0%B8%D0%BC%D0%B8%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%3F/solution.cpp) |
 | 1985B | [Максимальная сумма кратных чисел](https://codeforces.com/contest/1985/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1985/B%20-%20%D0%9C%D0%B0%D0%BA%D1%81%D0%B8%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F%20%D1%81%D1%83%D0%BC%D0%BC%D0%B0%20%D0%BA%D1%80%D0%B0%D1%82%D0%BD%D1%8B%D1%85%20%D1%87%D0%B8%D1%81%D0%B5%D0%BB/solution.cpp) |
 | 2234A | [Евклид, последовательность, два числа](https://codeforces.com/contest/2234/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/2234/A%20-%20%D0%95%D0%B2%D0%BA%D0%BB%D0%B8%D0%B4%2C%20%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C%2C%20%D0%B4%D0%B2%D0%B0%20%D1%87%D0%B8%D1%81%D0%BB%D0%B0/solution.cpp) |
