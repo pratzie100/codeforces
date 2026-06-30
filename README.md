@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 16 | 8 |
+| 17 | 8 |
 
 ---
 
@@ -14,8 +14,8 @@
 
 - [bitmasks](#bitmasks) (2)
 - [brute force](#brute-force) (8)
-- [constructive algorithms](#constructive-algorithms) (1)
-- [greedy](#greedy) (5)
+- [constructive algorithms](#constructive-algorithms) (2)
+- [greedy](#greedy) (6)
 - [implementation](#implementation) (7)
 - [math](#math) (8)
 - [number theory](#number-theory) (3)
@@ -47,6 +47,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1957A | [Палкоугольник](https://codeforces.com/contest/1957/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1957/A%20-%20%D0%9F%D0%B0%D0%BB%D0%BA%D0%BE%D1%83%D0%B3%D0%BE%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA/solution.cpp) |
 | 2231A | [Составьте массив](https://codeforces.com/contest/2231/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/2231/A%20-%20%D0%A1%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D1%8C%D1%82%D0%B5%20%D0%BC%D0%B0%D1%81%D1%81%D0%B8%D0%B2/solution.cpp) |
 
 ### greedy
@@ -54,6 +55,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1903A | [Коробки халлуми](https://codeforces.com/contest/1903/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1903/A%20-%20%D0%9A%D0%BE%D1%80%D0%BE%D0%B1%D0%BA%D0%B8%20%D1%85%D0%B0%D0%BB%D0%BB%D1%83%D0%BC%D0%B8/solution.cpp) |
+| 1957A | [Палкоугольник](https://codeforces.com/contest/1957/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1957/A%20-%20%D0%9F%D0%B0%D0%BB%D0%BA%D0%BE%D1%83%D0%B3%D0%BE%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA/solution.cpp) |
 | 1979A | [Угадай максимум](https://codeforces.com/contest/1979/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1979/A%20-%20%D0%A3%D0%B3%D0%B0%D0%B4%D0%B0%D0%B9%20%D0%BC%D0%B0%D0%BA%D1%81%D0%B8%D0%BC%D1%83%D0%BC/solution.cpp) |
 | 2114B | [Не очень палиндромная строка](https://codeforces.com/contest/2114/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/2114/B%20-%20%D0%9D%D0%B5%20%D0%BE%D1%87%D0%B5%D0%BD%D1%8C%20%D0%BF%D0%B0%D0%BB%D0%B8%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%BD%D0%B0%D1%8F%20%D1%81%D1%82%D1%80%D0%BE%D0%BA%D0%B0/solution.cpp) |
 | 2170A | [Максимальное соседство](https://codeforces.com/contest/2170/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/2170/A%20-%20%D0%9C%D0%B0%D0%BA%D1%81%D0%B8%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D1%81%D0%BE%D1%81%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%BE/solution.cpp) |
