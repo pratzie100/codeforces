@@ -14,6 +14,11 @@ void solve()
     string s;
     cin>>s;
  
+//if subarray consisting of only '.' has length greater than 2...then 
+//answer will always be two..since we need only two operation1
+ 
+//otherwise have to do operation1 for every empty cell (count '.' in string)
+ 
     int st=0;
     int maxi=0;
     for(int i=0;i<n;){
