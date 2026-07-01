@@ -9,28 +9,6 @@ using namespace std;
  
 void solve()
 {
-    // int n;
-    // cin>>n;
-    // vector<int>arr(n);
- 
-    // ll sum=0;
-    // for(int i=0;i<n;i++){
-    //     int x;
-    //     cin>>x;
-    //     sum+=x;
-    // }
- 
-    // ll r= 2*sum - arr[0] - arr[n-1];
- 
-    // float a=r/((n-1)*1.0);
-    // cout<<a<<endl;
-    // // int y=a*10;
-    // // cout<<y<<endl;
-    // int t=r/n;
-    // cout<<t<<endl;
-    // if(a==t) cout<<"YES"<<endl;
-    // else cout<<"NO"<<endl;
- 
     int x,y;
     cin>>x>>y;
  
