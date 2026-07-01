@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 21 | 10 |
+| 22 | 10 |
 
 ---
 
@@ -16,7 +16,7 @@
 - [brute force](#brute-force) (8)
 - [constructive algorithms](#constructive-algorithms) (3)
 - [games](#games) (1)
-- [greedy](#greedy) (9)
+- [greedy](#greedy) (10)
 - [implementation](#implementation) (8)
 - [math](#math) (11)
 - [number theory](#number-theory) (5)
@@ -63,6 +63,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1764A | [Дореми и краски](https://codeforces.com/contest/1764/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1764/A%20-%20%D0%94%D0%BE%D1%80%D0%B5%D0%BC%D0%B8%20%D0%B8%20%D0%BA%D1%80%D0%B0%D1%81%D0%BA%D0%B8/solution.cpp) |
 | 1900A | [Заполните водой](https://codeforces.com/contest/1900/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1900/A%20-%20%D0%97%D0%B0%D0%BF%D0%BE%D0%BB%D0%BD%D0%B8%D1%82%D0%B5%20%D0%B2%D0%BE%D0%B4%D0%BE%D0%B9/solution.cpp) |
 | 1901A | [Поездка](https://codeforces.com/contest/1901/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1901/A%20-%20%D0%9F%D0%BE%D0%B5%D0%B7%D0%B4%D0%BA%D0%B0/solution.cpp) |
 | 1903A | [Коробки халлуми](https://codeforces.com/contest/1903/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1903/A%20-%20%D0%9A%D0%BE%D1%80%D0%BE%D0%B1%D0%BA%D0%B8%20%D1%85%D0%B0%D0%BB%D0%BB%D1%83%D0%BC%D0%B8/solution.cpp) |
