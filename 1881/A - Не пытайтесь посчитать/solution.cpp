@@ -19,21 +19,21 @@ void solve()
         return;
     }
  
-int i=0;
- 
+    int i=0;
+    
     while(1)
-    {x+=x;
-    i++;
-    auto pos=x.find(s);
-    if(pos!=string::npos){
-        cout<<i<<endl;
-        return;
+    {
+        x+=x;
+        i++;
+        auto pos=x.find(s);
+        if(pos!=string::npos){
+            cout<<i<<endl;
+            return;
+        }
+        if(i==5) break;// WORST CASE s.size()=25..  1->2->4->8->16->32 (5 operations enough)
+ 
     }
-    if(i==5) break;
- 
-}
-cout<<-1<<endl;
- 
+    cout<<-1<<endl;
 }
  
 int main() {
