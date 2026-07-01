@@ -11,6 +11,14 @@ void solve()
 {
     int n;
     cin>>n;
+ 
+    //b1+b2=b2+b3 ...
+    // b1=b3=b5 ...
+ 
+    //b2+b3=b3+b4 ...
+    // b2=b4=b6...   (see given formula carefully to observe things)
+ 
+    // clearly count of distinct elements cant be greater than 2
     unordered_map<int,int>m;
     for(int i=0;i<n;i++){ 
         int x;
@@ -19,10 +27,13 @@ void solve()
     }
  
     int j=m.size();
-    if(j>2) cout<<"NO"<<endl;
+    if(j>2) cout<<"NO"<<endl; 
     else {
+ 
         if(j==1) {cout<<"YES"<<endl; return;}
  
+        // 2 distinct elements are exact 2, 
+        //one must fill all odd positions, other the even positions
         for(auto &i:m){
             if(i.second!=n/2 && i.second!=(n-n/2)) {cout<<"NO"<<endl; return;}
         }
