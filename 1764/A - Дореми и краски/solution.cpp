@@ -13,7 +13,7 @@ void solve()
     cin>>n;
     vector<int>arr(n);
     for(int i=0;i<n;i++) cin>>arr[i];
- 
+//TLE
     // map<pair<int,int>, int>m;
     // for(int i=0;i<n;i++){
     //     set<int>s;
@@ -36,7 +36,23 @@ void solve()
     // }
     // cout<<L+1<<" "<<R+1<<endl;
  
+//~~~~~~~~
  
+    //let valid window be [l, r] and we expand it to the 
+    //right by adding element arr[r+1] (step by step increment analaysis of given formula)
+    //Case 1 (New element): 
+    // (r-l+1)-(c(l,r)+1) = r-l-c(l,r) i.e, 
+    //(The value stays exactly the same)
+    
+    //Case 2 (Duplicate element): 
+    // (r-l+1)-(c(l,r)+0) = [r-l-c(l,r)]+1
+    //(The value increases by 1)
+    
+    //Expanding interval never makes answer worse
+    //It either keeps the value same or makes it strictly better.
+    //Therefore, the largest possible interval will always yield 
+    //the maximum possible value.
+    
     // The entire array is always an optimal choice
     cout<<1<<" "<<n<<endl;
 }
