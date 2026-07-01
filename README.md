@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 24 | 10 |
+| 25 | 10 |
 
 ---
 
@@ -20,7 +20,7 @@
 - [implementation](#implementation) (8)
 - [math](#math) (11)
 - [number theory](#number-theory) (5)
-- [sortings](#sortings) (3)
+- [sortings](#sortings) (4)
 - [strings](#strings) (2)
 
 ---
@@ -120,6 +120,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1850A | [To My Critics](https://codeforces.com/contest/1850/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1850/A%20-%20To%20My%20Critics/solution.cpp) |
+| 1896A | [Пиковые обмены](https://codeforces.com/contest/1896/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1896/A%20-%20%D0%9F%D0%B8%D0%BA%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BE%D0%B1%D0%BC%D0%B5%D0%BD%D1%8B/solution.cpp) |
 | 1903A | [Коробки халлуми](https://codeforces.com/contest/1903/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1903/A%20-%20%D0%9A%D0%BE%D1%80%D0%BE%D0%B1%D0%BA%D0%B8%20%D1%85%D0%B0%D0%BB%D0%BB%D1%83%D0%BC%D0%B8/solution.cpp) |
 | 2234A | [Евклид, последовательность, два числа](https://codeforces.com/contest/2234/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/2234/A%20-%20%D0%95%D0%B2%D0%BA%D0%BB%D0%B8%D0%B4%2C%20%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C%2C%20%D0%B4%D0%B2%D0%B0%20%D1%87%D0%B8%D1%81%D0%BB%D0%B0/solution.cpp) |
 
