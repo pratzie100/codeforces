@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 31 | 10 |
+| 32 | 10 |
 
 ---
 
@@ -15,10 +15,10 @@
 - [bitmasks](#bitmasks) (2)
 - [brute force](#brute-force) (9)
 - [constructive algorithms](#constructive-algorithms) (6)
-- [games](#games) (1)
-- [greedy](#greedy) (11)
+- [games](#games) (2)
+- [greedy](#greedy) (12)
 - [implementation](#implementation) (9)
-- [math](#math) (15)
+- [math](#math) (16)
 - [number theory](#number-theory) (6)
 - [sortings](#sortings) (4)
 - [strings](#strings) (2)
@@ -61,6 +61,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1858A | [Кнопки](https://codeforces.com/contest/1858/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1858/A%20-%20%D0%9A%D0%BD%D0%BE%D0%BF%D0%BA%D0%B8/solution.cpp) |
 | 1899A | [Игра с числами](https://codeforces.com/contest/1899/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1899/A%20-%20%D0%98%D0%B3%D1%80%D0%B0%20%D1%81%20%D1%87%D0%B8%D1%81%D0%BB%D0%B0%D0%BC%D0%B8/solution.cpp) |
 
 ### greedy
@@ -68,6 +69,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1764A | [Дореми и краски](https://codeforces.com/contest/1764/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1764/A%20-%20%D0%94%D0%BE%D1%80%D0%B5%D0%BC%D0%B8%20%D0%B8%20%D0%BA%D1%80%D0%B0%D1%81%D0%BA%D0%B8/solution.cpp) |
+| 1858A | [Кнопки](https://codeforces.com/contest/1858/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1858/A%20-%20%D0%9A%D0%BD%D0%BE%D0%BF%D0%BA%D0%B8/solution.cpp) |
 | 1878A | [Сколько стоит Daytona?](https://codeforces.com/contest/1878/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1878/A%20-%20%D0%A1%D0%BA%D0%BE%D0%BB%D1%8C%D0%BA%D0%BE%20%D1%81%D1%82%D0%BE%D0%B8%D1%82%20Daytona%3F/solution.cpp) |
 | 1900A | [Заполните водой](https://codeforces.com/contest/1900/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1900/A%20-%20%D0%97%D0%B0%D0%BF%D0%BE%D0%BB%D0%BD%D0%B8%D1%82%D0%B5%20%D0%B2%D0%BE%D0%B4%D0%BE%D0%B9/solution.cpp) |
 | 1901A | [Поездка](https://codeforces.com/contest/1901/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1901/A%20-%20%D0%9F%D0%BE%D0%B5%D0%B7%D0%B4%D0%BA%D0%B0/solution.cpp) |
@@ -99,6 +101,7 @@
 |---|---------|------------|----------|
 | 4A | [Арбуз](https://codeforces.com/contest/4/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/4/A%20-%20%D0%90%D1%80%D0%B1%D1%83%D0%B7/solution.cpp) |
 | 1748A | [Огромный квадрат](https://codeforces.com/contest/1748/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1748/A%20-%20%D0%9E%D0%B3%D1%80%D0%BE%D0%BC%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82/solution.cpp) |
+| 1858A | [Кнопки](https://codeforces.com/contest/1858/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1858/A%20-%20%D0%9A%D0%BD%D0%BE%D0%BF%D0%BA%D0%B8/solution.cpp) |
 | 1859A | [Вместе мы сила](https://codeforces.com/contest/1859/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1859/A%20-%20%D0%92%D0%BC%D0%B5%D1%81%D1%82%D0%B5%20%D0%BC%D1%8B%20%D1%81%D0%B8%D0%BB%D0%B0/solution.cpp) |
 | 1866A | [Ambitious Kid](https://codeforces.com/contest/1866/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1866/A%20-%20Ambitious%20Kid/solution.cpp) |
 | 1873C | [Стрельба по мишени](https://codeforces.com/contest/1873/problem/C) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1873/C%20-%20%D0%A1%D1%82%D1%80%D0%B5%D0%BB%D1%8C%D0%B1%D0%B0%20%D0%BF%D0%BE%20%D0%BC%D0%B8%D1%88%D0%B5%D0%BD%D0%B8/solution.cpp) |
