@@ -6,19 +6,19 @@
 
 | Total Problems | Topics |
 |---|---|
-| 33 | 10 |
+| 34 | 10 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [bitmasks](#bitmasks) (2)
-- [brute force](#brute-force) (9)
+- [brute force](#brute-force) (10)
 - [constructive algorithms](#constructive-algorithms) (6)
 - [games](#games) (2)
-- [greedy](#greedy) (13)
+- [greedy](#greedy) (14)
 - [implementation](#implementation) (9)
-- [math](#math) (17)
+- [math](#math) (18)
 - [number theory](#number-theory) (6)
 - [sortings](#sortings) (4)
 - [strings](#strings) (2)
@@ -37,6 +37,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 4A | [Арбуз](https://codeforces.com/contest/4/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/4/A%20-%20%D0%90%D1%80%D0%B1%D1%83%D0%B7/solution.cpp) |
+| 1853A | [Рассортировка](https://codeforces.com/contest/1853/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1853/A%20-%20%D0%A0%D0%B0%D1%81%D1%81%D0%BE%D1%80%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B0/solution.cpp) |
 | 1881A | [Не пытайтесь посчитать](https://codeforces.com/contest/1881/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1881/A%20-%20%D0%9D%D0%B5%20%D0%BF%D1%8B%D1%82%D0%B0%D0%B9%D1%82%D0%B5%D1%81%D1%8C%20%D0%BF%D0%BE%D1%81%D1%87%D0%B8%D1%82%D0%B0%D1%82%D1%8C/solution.cpp) |
 | 1903A | [Коробки халлуми](https://codeforces.com/contest/1903/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1903/A%20-%20%D0%9A%D0%BE%D1%80%D0%BE%D0%B1%D0%BA%D0%B8%20%D1%85%D0%B0%D0%BB%D0%BB%D1%83%D0%BC%D0%B8/solution.cpp) |
 | 1915B | [Не совсем латинский квадрат](https://codeforces.com/contest/1915/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1915/B%20-%20%D0%9D%D0%B5%20%D1%81%D0%BE%D0%B2%D1%81%D0%B5%D0%BC%20%D0%BB%D0%B0%D1%82%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82/solution.cpp) |
@@ -69,6 +70,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1764A | [Дореми и краски](https://codeforces.com/contest/1764/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1764/A%20-%20%D0%94%D0%BE%D1%80%D0%B5%D0%BC%D0%B8%20%D0%B8%20%D0%BA%D1%80%D0%B0%D1%81%D0%BA%D0%B8/solution.cpp) |
+| 1853A | [Рассортировка](https://codeforces.com/contest/1853/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1853/A%20-%20%D0%A0%D0%B0%D1%81%D1%81%D0%BE%D1%80%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B0/solution.cpp) |
 | 1857A | [Раскраска массива](https://codeforces.com/contest/1857/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1857/A%20-%20%D0%A0%D0%B0%D1%81%D0%BA%D1%80%D0%B0%D1%81%D0%BA%D0%B0%20%D0%BC%D0%B0%D1%81%D1%81%D0%B8%D0%B2%D0%B0/solution.cpp) |
 | 1858A | [Кнопки](https://codeforces.com/contest/1858/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1858/A%20-%20%D0%9A%D0%BD%D0%BE%D0%BF%D0%BA%D0%B8/solution.cpp) |
 | 1878A | [Сколько стоит Daytona?](https://codeforces.com/contest/1878/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1878/A%20-%20%D0%A1%D0%BA%D0%BE%D0%BB%D1%8C%D0%BA%D0%BE%20%D1%81%D1%82%D0%BE%D0%B8%D1%82%20Daytona%3F/solution.cpp) |
@@ -102,6 +104,7 @@
 |---|---------|------------|----------|
 | 4A | [Арбуз](https://codeforces.com/contest/4/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/4/A%20-%20%D0%90%D1%80%D0%B1%D1%83%D0%B7/solution.cpp) |
 | 1748A | [Огромный квадрат](https://codeforces.com/contest/1748/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1748/A%20-%20%D0%9E%D0%B3%D1%80%D0%BE%D0%BC%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82/solution.cpp) |
+| 1853A | [Рассортировка](https://codeforces.com/contest/1853/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1853/A%20-%20%D0%A0%D0%B0%D1%81%D1%81%D0%BE%D1%80%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B0/solution.cpp) |
 | 1857A | [Раскраска массива](https://codeforces.com/contest/1857/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1857/A%20-%20%D0%A0%D0%B0%D1%81%D0%BA%D1%80%D0%B0%D1%81%D0%BA%D0%B0%20%D0%BC%D0%B0%D1%81%D1%81%D0%B8%D0%B2%D0%B0/solution.cpp) |
 | 1858A | [Кнопки](https://codeforces.com/contest/1858/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1858/A%20-%20%D0%9A%D0%BD%D0%BE%D0%BF%D0%BA%D0%B8/solution.cpp) |
 | 1859A | [Вместе мы сила](https://codeforces.com/contest/1859/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1859/A%20-%20%D0%92%D0%BC%D0%B5%D1%81%D1%82%D0%B5%20%D0%BC%D1%8B%20%D1%81%D0%B8%D0%BB%D0%B0/solution.cpp) |
