@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 35 | 10 |
+| 36 | 10 |
 
 ---
 
@@ -14,11 +14,11 @@
 
 - [bitmasks](#bitmasks) (2)
 - [brute force](#brute-force) (10)
-- [constructive algorithms](#constructive-algorithms) (7)
+- [constructive algorithms](#constructive-algorithms) (8)
 - [games](#games) (2)
 - [greedy](#greedy) (14)
 - [implementation](#implementation) (10)
-- [math](#math) (19)
+- [math](#math) (20)
 - [number theory](#number-theory) (7)
 - [sortings](#sortings) (4)
 - [strings](#strings) (2)
@@ -51,6 +51,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1837A | [Кузнечик на прямой](https://codeforces.com/contest/1837/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1837/A%20-%20%D0%9A%D1%83%D0%B7%D0%BD%D0%B5%D1%87%D0%B8%D0%BA%20%D0%BD%D0%B0%20%D0%BF%D1%80%D1%8F%D0%BC%D0%BE%D0%B9/solution.cpp) |
 | 1845A | [Запрещенное число](https://codeforces.com/contest/1845/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1845/A%20-%20%D0%97%D0%B0%D0%BF%D1%80%D0%B5%D1%89%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5%20%D1%87%D0%B8%D1%81%D0%BB%D0%BE/solution.cpp) |
 | 1859A | [Вместе мы сила](https://codeforces.com/contest/1859/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1859/A%20-%20%D0%92%D0%BC%D0%B5%D1%81%D1%82%D0%B5%20%D0%BC%D1%8B%20%D1%81%D0%B8%D0%BB%D0%B0/solution.cpp) |
 | 1862B | [Игра в последовательность](https://codeforces.com/contest/1862/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1862/B%20-%20%D0%98%D0%B3%D1%80%D0%B0%20%D0%B2%20%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C/solution.cpp) |
@@ -106,6 +107,7 @@
 |---|---------|------------|----------|
 | 4A | [Арбуз](https://codeforces.com/contest/4/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/4/A%20-%20%D0%90%D1%80%D0%B1%D1%83%D0%B7/solution.cpp) |
 | 1748A | [Огромный квадрат](https://codeforces.com/contest/1748/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1748/A%20-%20%D0%9E%D0%B3%D1%80%D0%BE%D0%BC%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82/solution.cpp) |
+| 1837A | [Кузнечик на прямой](https://codeforces.com/contest/1837/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1837/A%20-%20%D0%9A%D1%83%D0%B7%D0%BD%D0%B5%D1%87%D0%B8%D0%BA%20%D0%BD%D0%B0%20%D0%BF%D1%80%D1%8F%D0%BC%D0%BE%D0%B9/solution.cpp) |
 | 1845A | [Запрещенное число](https://codeforces.com/contest/1845/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1845/A%20-%20%D0%97%D0%B0%D0%BF%D1%80%D0%B5%D1%89%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5%20%D1%87%D0%B8%D1%81%D0%BB%D0%BE/solution.cpp) |
 | 1853A | [Рассортировка](https://codeforces.com/contest/1853/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1853/A%20-%20%D0%A0%D0%B0%D1%81%D1%81%D0%BE%D1%80%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B0/solution.cpp) |
 | 1857A | [Раскраска массива](https://codeforces.com/contest/1857/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1857/A%20-%20%D0%A0%D0%B0%D1%81%D0%BA%D1%80%D0%B0%D1%81%D0%BA%D0%B0%20%D0%BC%D0%B0%D1%81%D1%81%D0%B8%D0%B2%D0%B0/solution.cpp) |
