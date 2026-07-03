@@ -6,20 +6,20 @@
 
 | Total Problems | Topics |
 |---|---|
-| 43 | 12 |
+| 44 | 12 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [bitmasks](#bitmasks) (3)
-- [brute force](#brute-force) (11)
+- [brute force](#brute-force) (12)
 - [constructive algorithms](#constructive-algorithms) (9)
 - [games](#games) (2)
 - [geometry](#geometry) (1)
 - [greedy](#greedy) (16)
-- [implementation](#implementation) (13)
-- [math](#math) (23)
+- [implementation](#implementation) (14)
+- [math](#math) (24)
 - [number theory](#number-theory) (7)
 - [sortings](#sortings) (4)
 - [strings](#strings) (2)
@@ -40,6 +40,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 4A | [Арбуз](https://codeforces.com/contest/4/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/4/A%20-%20%D0%90%D1%80%D0%B1%D1%83%D0%B7/solution.cpp) |
+| 1788A | [Единицы и двойки](https://codeforces.com/contest/1788/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1788/A%20-%20%D0%95%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%8B%20%D0%B8%20%D0%B4%D0%B2%D0%BE%D0%B9%D0%BA%D0%B8/solution.cpp) |
 | 1805A | [Нам нужен ноль](https://codeforces.com/contest/1805/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1805/A%20-%20%D0%9D%D0%B0%D0%BC%20%D0%BD%D1%83%D0%B6%D0%B5%D0%BD%20%D0%BD%D0%BE%D0%BB%D1%8C/solution.cpp) |
 | 1853A | [Рассортировка](https://codeforces.com/contest/1853/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1853/A%20-%20%D0%A0%D0%B0%D1%81%D1%81%D0%BE%D1%80%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B0/solution.cpp) |
 | 1881A | [Не пытайтесь посчитать](https://codeforces.com/contest/1881/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1881/A%20-%20%D0%9D%D0%B5%20%D0%BF%D1%8B%D1%82%D0%B0%D0%B9%D1%82%D0%B5%D1%81%D1%8C%20%D0%BF%D0%BE%D1%81%D1%87%D0%B8%D1%82%D0%B0%D1%82%D1%8C/solution.cpp) |
@@ -105,6 +106,7 @@
 |---|---------|------------|----------|
 | 1722A | [Проверка правописания](https://codeforces.com/contest/1722/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1722/A%20-%20%D0%9F%D1%80%D0%BE%D0%B2%D0%B5%D1%80%D0%BA%D0%B0%20%D0%BF%D1%80%D0%B0%D0%B2%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D1%8F/solution.cpp) |
 | 1772A | [A+B?](https://codeforces.com/contest/1772/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1772/A%20-%20A%2BB%3F/solution.cpp) |
+| 1788A | [Единицы и двойки](https://codeforces.com/contest/1788/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1788/A%20-%20%D0%95%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%8B%20%D0%B8%20%D0%B4%D0%B2%D0%BE%D0%B9%D0%BA%D0%B8/solution.cpp) |
 | 1791C | [Приписать и дописать](https://codeforces.com/contest/1791/problem/C) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1791/C%20-%20%D0%9F%D1%80%D0%B8%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%20%D0%B8%20%D0%B4%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C/solution.cpp) |
 | 1814A | [Монеты](https://codeforces.com/contest/1814/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1814/A%20-%20%D0%9C%D0%BE%D0%BD%D0%B5%D1%82%D1%8B/solution.cpp) |
 | 1829B | [Пробел](https://codeforces.com/contest/1829/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1829/B%20-%20%D0%9F%D1%80%D0%BE%D0%B1%D0%B5%D0%BB/solution.cpp) |
@@ -123,6 +125,7 @@
 |---|---------|------------|----------|
 | 4A | [Арбуз](https://codeforces.com/contest/4/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/4/A%20-%20%D0%90%D1%80%D0%B1%D1%83%D0%B7/solution.cpp) |
 | 1748A | [Огромный квадрат](https://codeforces.com/contest/1748/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1748/A%20-%20%D0%9E%D0%B3%D1%80%D0%BE%D0%BC%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82/solution.cpp) |
+| 1788A | [Единицы и двойки](https://codeforces.com/contest/1788/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1788/A%20-%20%D0%95%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%8B%20%D0%B8%20%D0%B4%D0%B2%D0%BE%D0%B9%D0%BA%D0%B8/solution.cpp) |
 | 1806A | [Мастер перемещений](https://codeforces.com/contest/1806/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1806/A%20-%20%D0%9C%D0%B0%D1%81%D1%82%D0%B5%D1%80%20%D0%BF%D0%B5%D1%80%D0%B5%D0%BC%D0%B5%D1%89%D0%B5%D0%BD%D0%B8%D0%B9/solution.cpp) |
 | 1814A | [Монеты](https://codeforces.com/contest/1814/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1814/A%20-%20%D0%9C%D0%BE%D0%BD%D0%B5%D1%82%D1%8B/solution.cpp) |
 | 1834A | [Единичный массив](https://codeforces.com/contest/1834/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1834/A%20-%20%D0%95%D0%B4%D0%B8%D0%BD%D0%B8%D1%87%D0%BD%D1%8B%D0%B9%20%D0%BC%D0%B0%D1%81%D1%81%D0%B8%D0%B2/solution.cpp) |
