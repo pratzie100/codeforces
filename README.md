@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 37 | 10 |
+| 38 | 10 |
 
 ---
 
@@ -14,7 +14,7 @@
 
 - [bitmasks](#bitmasks) (2)
 - [brute force](#brute-force) (10)
-- [constructive algorithms](#constructive-algorithms) (8)
+- [constructive algorithms](#constructive-algorithms) (9)
 - [games](#games) (2)
 - [greedy](#greedy) (15)
 - [implementation](#implementation) (10)
@@ -51,6 +51,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1831A | [Перестановки-близнецы](https://codeforces.com/contest/1831/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1831/A%20-%20%D0%9F%D0%B5%D1%80%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B8-%D0%B1%D0%BB%D0%B8%D0%B7%D0%BD%D0%B5%D1%86%D1%8B/solution.cpp) |
 | 1837A | [Кузнечик на прямой](https://codeforces.com/contest/1837/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1837/A%20-%20%D0%9A%D1%83%D0%B7%D0%BD%D0%B5%D1%87%D0%B8%D0%BA%20%D0%BD%D0%B0%20%D0%BF%D1%80%D1%8F%D0%BC%D0%BE%D0%B9/solution.cpp) |
 | 1845A | [Запрещенное число](https://codeforces.com/contest/1845/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1845/A%20-%20%D0%97%D0%B0%D0%BF%D1%80%D0%B5%D1%89%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5%20%D1%87%D0%B8%D1%81%D0%BB%D0%BE/solution.cpp) |
 | 1859A | [Вместе мы сила](https://codeforces.com/contest/1859/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1859/A%20-%20%D0%92%D0%BC%D0%B5%D1%81%D1%82%D0%B5%20%D0%BC%D1%8B%20%D1%81%D0%B8%D0%BB%D0%B0/solution.cpp) |
