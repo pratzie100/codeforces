@@ -9,8 +9,8 @@ using namespace std;
  
 void solve()
 {
-    //(x+1,y+1) or point (x−1,y)
- 
+    //(x+1,y+1) or (x−1,y)
+// optimal move is go diagonal untill same y level (op1), then reduce x (op2)
     int a,b,c,d;
     cin>>a>>b>>c>>d;
  
