@@ -12,6 +12,9 @@ void solve()
     int n;
     cin>>n;
     vector<int>arr(n);
+    //instead of maintaining products in suff and prefix arrays,
+    //maintain count of 2's from left and from right
+    //earliest balancing index where both left and right counts (of 2) are equal is answer
     vector<int>count2l(n,0);
     vector<int>count2r(n,0);
     for(int i=0;i<n;i++){
