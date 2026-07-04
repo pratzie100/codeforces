@@ -33,7 +33,7 @@ void solve()
 {
     int n;
     cin>>n;
-    cout<<countr[n]<<endl;
+    cout<<countr[n]<<endl;  //O(1) PER QUERY
  
  
 }
@@ -42,8 +42,8 @@ int main() {
     ios::sync_with_stdio(false);
     cin.tie(0);
  
-    compute_rounds();
- 
+    compute_rounds();  // TIME COMPLEXITY OF PRECOMPUTATION- N LOG N  (log is base 10)
+    // 10^6 * log 10^6  = 6 * 10^6 = 10^6  (almost linear)
  
   int t; 
   cin>>t; 
