@@ -6,15 +6,15 @@
 
 | Total Problems | Topics |
 |---|---|
-| 46 | 12 |
+| 47 | 12 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [bitmasks](#bitmasks) (3)
-- [brute force](#brute-force) (13)
-- [constructive algorithms](#constructive-algorithms) (10)
+- [brute force](#brute-force) (14)
+- [constructive algorithms](#constructive-algorithms) (11)
 - [games](#games) (2)
 - [geometry](#geometry) (1)
 - [greedy](#greedy) (16)
@@ -40,6 +40,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 4A | [Арбуз](https://codeforces.com/contest/4/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/4/A%20-%20%D0%90%D1%80%D0%B1%D1%83%D0%B7/solution.cpp) |
+| 1761A | [Две перестановки](https://codeforces.com/contest/1761/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1761/A%20-%20%D0%94%D0%B2%D0%B5%20%D0%BF%D0%B5%D1%80%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B8/solution.cpp) |
 | 1766A | [Суперкруглые числа](https://codeforces.com/contest/1766/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1766/A%20-%20%D0%A1%D1%83%D0%BF%D0%B5%D1%80%D0%BA%D1%80%D1%83%D0%B3%D0%BB%D1%8B%D0%B5%20%D1%87%D0%B8%D1%81%D0%BB%D0%B0/solution.cpp) |
 | 1788A | [Единицы и двойки](https://codeforces.com/contest/1788/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1788/A%20-%20%D0%95%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%8B%20%D0%B8%20%D0%B4%D0%B2%D0%BE%D0%B9%D0%BA%D0%B8/solution.cpp) |
 | 1805A | [Нам нужен ноль](https://codeforces.com/contest/1805/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1805/A%20-%20%D0%9D%D0%B0%D0%BC%20%D0%BD%D1%83%D0%B6%D0%B5%D0%BD%20%D0%BD%D0%BE%D0%BB%D1%8C/solution.cpp) |
@@ -57,6 +58,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1761A | [Две перестановки](https://codeforces.com/contest/1761/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1761/A%20-%20%D0%94%D0%B2%D0%B5%20%D0%BF%D0%B5%D1%80%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B8/solution.cpp) |
 | 1783A | [Сделай массив красивым](https://codeforces.com/contest/1783/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1783/A%20-%20%D0%A1%D0%B4%D0%B5%D0%BB%D0%B0%D0%B9%20%D0%BC%D0%B0%D1%81%D1%81%D0%B8%D0%B2%20%D0%BA%D1%80%D0%B0%D1%81%D0%B8%D0%B2%D1%8B%D0%BC/solution.cpp) |
 | 1831A | [Перестановки-близнецы](https://codeforces.com/contest/1831/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1831/A%20-%20%D0%9F%D0%B5%D1%80%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B8-%D0%B1%D0%BB%D0%B8%D0%B7%D0%BD%D0%B5%D1%86%D1%8B/solution.cpp) |
 | 1837A | [Кузнечик на прямой](https://codeforces.com/contest/1837/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1837/A%20-%20%D0%9A%D1%83%D0%B7%D0%BD%D0%B5%D1%87%D0%B8%D0%BA%20%D0%BD%D0%B0%20%D0%BF%D1%80%D1%8F%D0%BC%D0%BE%D0%B9/solution.cpp) |
