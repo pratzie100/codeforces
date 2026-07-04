@@ -12,6 +12,8 @@ void solve()
 {
     int n;
     cin>>n;
+ 
+ 
     // multiset<int>ms;
     // for(int i=0;i<n;i++){
     //     int x;
@@ -29,7 +31,10 @@ void solve()
     // else{
     //     cout<<"Yes"<<endl;
     // }
-    
+        //best case is not taking gcd of two smallest elements! as above (wrong)
+ 
+ 
+ 
     vector<int>nums(n);
     for(int i=0;i<n;i++){
         cin>>nums[i];
@@ -45,6 +50,16 @@ void solve()
         }
     }
     cout<<"No"<<endl;
+ 
+//1 sec= 10^8 operations
+//  operations/testcase =  10^8 / 500  = 0.2 * 10^6 = 2*10^5 ops allowed per test case
+//  N^3 solution per test case wont work since N=100  and N^3=10^6 > 2*10^5
+// N^2 = 10^4  < 2*10^5 so this will work...any thing else than N^2 time complexity also work
+ 
+// Time Complexity (TC): O(n^2 * log2(min(a[i], a[j]))) = O(10^4 * 20) = O(2 * 10^5)
+    //since a[i]<=10^6 [ log2(10^6)=20 ]
+ 
+// Space Complexity (SC): O(n) = O(100)
 }
  
 int main() {
