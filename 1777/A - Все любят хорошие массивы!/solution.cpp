@@ -13,6 +13,8 @@ void solve()
     int n;
     cin>>n;
  
+//MY IDEA: if k elements are consecutively odd/even, then k-1 operations to reduce to single element
+// since odd*odd= odd  and odd*odd*odd=(odd*odd)*odd=(odd*odd)=odd  [2 operations on 3 elements]
     int ans=0;
     int even=0;
     int odd=0;
