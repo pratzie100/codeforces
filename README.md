@@ -6,12 +6,13 @@
 
 | Total Problems | Topics |
 |---|---|
-| 51 | 12 |
+| 52 | 13 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
+- [Uncategorized](#uncategorized) (1)
 - [bitmasks](#bitmasks) (3)
 - [brute force](#brute-force) (15)
 - [constructive algorithms](#constructive-algorithms) (11)
@@ -26,6 +27,12 @@
 - [two pointers](#two-pointers) (1)
 
 ---
+
+### Uncategorized
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2242A | [Биграммы](https://codeforces.com/contest/2242/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/2242/A%20-%20%D0%91%D0%B8%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/solution.cpp) |
 
 ### bitmasks
 
