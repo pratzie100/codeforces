@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 49 | 12 |
+| 50 | 12 |
 
 ---
 
@@ -22,7 +22,7 @@
 - [math](#math) (27)
 - [number theory](#number-theory) (8)
 - [sortings](#sortings) (5)
-- [strings](#strings) (2)
+- [strings](#strings) (3)
 - [two pointers](#two-pointers) (1)
 
 ---
@@ -186,6 +186,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1881A | [Не пытайтесь посчитать](https://codeforces.com/contest/1881/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1881/A%20-%20%D0%9D%D0%B5%20%D0%BF%D1%8B%D1%82%D0%B0%D0%B9%D1%82%D0%B5%D1%81%D1%8C%20%D0%BF%D0%BE%D1%81%D1%87%D0%B8%D1%82%D0%B0%D1%82%D1%8C/solution.cpp) |
+| 1883B | [Химия](https://codeforces.com/contest/1883/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1883/B%20-%20%D0%A5%D0%B8%D0%BC%D0%B8%D1%8F/solution.cpp) |
 | 1900A | [Заполните водой](https://codeforces.com/contest/1900/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1900/A%20-%20%D0%97%D0%B0%D0%BF%D0%BE%D0%BB%D0%BD%D0%B8%D1%82%D0%B5%20%D0%B2%D0%BE%D0%B4%D0%BE%D0%B9/solution.cpp) |
 
 ### two pointers
