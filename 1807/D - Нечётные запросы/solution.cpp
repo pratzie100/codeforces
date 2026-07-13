@@ -169,23 +169,15 @@ void solve()
         ll rightsum= pref[n-1]- pref[r-1];
  
         debug(rangesum);
-debug(leftsum);
-debug(rightsum);
-//         if( ((r-l+1)%2==0) && (leftsum%2==0) && (rightsum%2==0)
-//             ||
+        debug(leftsum);
+        debug(rightsum);
  
-//          ((r-l+1)%2!=0) &&   (k%2==0) && (leftsum%2==0) && (rightsum%2==0)
-// ||
  
-//          )
+        // we want to make  leftsum + (r-l+1)*k + rightsum =odd
  
-//         {
-//             noln;
-//         }
-//         else{
-//             yesln;
-//         }
-            
+        // if leftsum+rightsum are odd, then mid must be even (or not odd); since only o+e=o
+ 
+        // if leftsum+rightsum are even, then mid must be odd ,   since only e+o=o;
  
             if( (leftsum%2!=0 && rightsum%2==0) || (leftsum%2==0 && rightsum%2!=0) ) {
  
