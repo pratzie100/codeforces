@@ -139,6 +139,12 @@ void solve()
  
     //k=1 is minimum answer (always exist, like buble sort)
     //we need max k
+    
+    //For the permutation to be sortable, every value pi
+    //must be able to travel from its starting position i to its target position
+    
+    //This is only possible if the distance |pi-i| is multiple of k , this will hold for all i
+    // for holding for all i, clearly gcd needed to be taken
  
     //3 10 5 2 9 6 7 8 1 4
     // 2 8 2 2 4 0 0 0 8 6   gcd=2
@@ -147,7 +153,8 @@ void solve()
     //0 3 0 0 3 0   (amount needed to move to correct position)
  
     // 1 11 6 4 8 3 7 5 9 10 2
-    // 0 9  3 0 3 3 0 3 0 0  9    
+    // 0 9  3 0 3 3 0 3 0 0  9  
+    
  
     ri(n);
         
@@ -163,7 +170,7 @@ void solve()
     }
  
     ll g=0;
- 
+    
     each(x,dist){
         g= mygcd(g,x);
     }
