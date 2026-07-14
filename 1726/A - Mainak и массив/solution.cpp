@@ -168,14 +168,23 @@ void solve()
         chmax(c1, a[i]-a[i+1]);
  
     }
-    
+    // ans=max(ans,c1);
+    // int c2= max(maxi-a[0], a[n-1]-mini);
+    // int c3= max(a[n-1]-a[0], c2);
+    // ans=max(ans,c3);
  
-    int ans=INT_MIN;
+    int c2=maxi-a[0];
+    int c3=a[n-1]-mini;
+    int c4=a[n-1]-a[0];
  
-    ans=max(ans,c1);
-    int c2= max(maxi-a[0], a[n-1]-mini);
-    int c3= max(a[n-1]-a[0], c2);
-    ans=max(ans,c3);
+ 
+    // int ans=INT_MIN;
+    // ans=max(ans, max({c1,c2,c3,c4}));
+ 
+    int ans=max({c1,c2,c3,c4});
+ 
+ 
+ 
  
     pln(ans);
     
