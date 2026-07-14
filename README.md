@@ -6,13 +6,13 @@
 
 | Total Problems | Topics |
 |---|---|
-| 58 | 14 |
+| 59 | 14 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [Uncategorized](#uncategorized) (3)
+- [Uncategorized](#uncategorized) (4)
 - [bitmasks](#bitmasks) (3)
 - [brute force](#brute-force) (15)
 - [constructive algorithms](#constructive-algorithms) (11)
@@ -34,6 +34,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2242A | [Биграммы](https://codeforces.com/contest/2242/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/2242/A%20-%20%D0%91%D0%B8%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/solution.cpp) |
+| 2244A | [Искандер и рисунки](https://codeforces.com/contest/2244/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/2244/A%20-%20%D0%98%D1%81%D0%BA%D0%B0%D0%BD%D0%B4%D0%B5%D1%80%20%D0%B8%20%D1%80%D0%B8%D1%81%D1%83%D0%BD%D0%BA%D0%B8/solution.cpp) |
 | 2246A | [farmpiggie и сумма подмножеств](https://codeforces.com/contest/2246/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/2246/A%20-%20farmpiggie%20%D0%B8%20%D1%81%D1%83%D0%BC%D0%BC%D0%B0%20%D0%BF%D0%BE%D0%B4%D0%BC%D0%BD%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2/solution.cpp) |
 | 2246B | [ezraft и массив](https://codeforces.com/contest/2246/problem/B) | Unrated | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/2246/B%20-%20ezraft%20%D0%B8%20%D0%BC%D0%B0%D1%81%D1%81%D0%B8%D0%B2/solution.cpp) |
 
