@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 61 | 14 |
+| 62 | 14 |
 
 ---
 
@@ -19,8 +19,8 @@
 - [data structures](#data-structures) (1)
 - [games](#games) (2)
 - [geometry](#geometry) (1)
-- [greedy](#greedy) (19)
-- [implementation](#implementation) (16)
+- [greedy](#greedy) (20)
+- [implementation](#implementation) (17)
 - [math](#math) (30)
 - [number theory](#number-theory) (9)
 - [sortings](#sortings) (5)
@@ -107,6 +107,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1675B | [Сделай возрастающую](https://codeforces.com/contest/1675/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1675/B%20-%20%D0%A1%D0%B4%D0%B5%D0%BB%D0%B0%D0%B9%20%D0%B2%D0%BE%D0%B7%D1%80%D0%B0%D1%81%D1%82%D0%B0%D1%8E%D1%89%D1%83%D1%8E/solution.cpp) |
 | 1726A | [Mainak и массив](https://codeforces.com/contest/1726/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1726/A%20-%20Mainak%20%D0%B8%20%D0%BC%D0%B0%D1%81%D1%81%D0%B8%D0%B2/solution.cpp) |
 | 1764A | [Дореми и краски](https://codeforces.com/contest/1764/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1764/A%20-%20%D0%94%D0%BE%D1%80%D0%B5%D0%BC%D0%B8%20%D0%B8%20%D0%BA%D1%80%D0%B0%D1%81%D0%BA%D0%B8/solution.cpp) |
 | 1777A | [Все любят хорошие массивы!](https://codeforces.com/contest/1777/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1777/A%20-%20%D0%92%D1%81%D0%B5%20%D0%BB%D1%8E%D0%B1%D1%8F%D1%82%20%D1%85%D0%BE%D1%80%D0%BE%D1%88%D0%B8%D0%B5%20%D0%BC%D0%B0%D1%81%D1%81%D0%B8%D0%B2%D1%8B!/solution.cpp) |
@@ -131,6 +132,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1675B | [Сделай возрастающую](https://codeforces.com/contest/1675/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1675/B%20-%20%D0%A1%D0%B4%D0%B5%D0%BB%D0%B0%D0%B9%20%D0%B2%D0%BE%D0%B7%D1%80%D0%B0%D1%81%D1%82%D0%B0%D1%8E%D1%89%D1%83%D1%8E/solution.cpp) |
 | 1722A | [Проверка правописания](https://codeforces.com/contest/1722/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1722/A%20-%20%D0%9F%D1%80%D0%BE%D0%B2%D0%B5%D1%80%D0%BA%D0%B0%20%D0%BF%D1%80%D0%B0%D0%B2%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D1%8F/solution.cpp) |
 | 1766A | [Суперкруглые числа](https://codeforces.com/contest/1766/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1766/A%20-%20%D0%A1%D1%83%D0%BF%D0%B5%D1%80%D0%BA%D1%80%D1%83%D0%B3%D0%BB%D1%8B%D0%B5%20%D1%87%D0%B8%D1%81%D0%BB%D0%B0/solution.cpp) |
 | 1772A | [A+B?](https://codeforces.com/contest/1772/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1772/A%20-%20A%2BB%3F/solution.cpp) |
