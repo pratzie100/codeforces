@@ -18,7 +18,7 @@ template<typename K, typename V> void _debug(const unordered_multimap<K,V>&);
 template<typename T> void _debug(queue<T>);
 template<typename T> void _debug(stack<T>);
 template<typename T> void _debug(priority_queue<T>);
-template<typename T> void _debug(priority_queue<T, vector<T>, greater<T>>);
+template<typename T> void _debug(priority_queue <T, vector<T>, greater<T>>);
  
 inline void _debug(const string &s){ cerr << '"' << s << '"'; }
 inline void _debug(const char *s){ cerr << '"' << s << '"'; }
@@ -227,7 +227,7 @@ void solve()
         if(s[i]=='a' && s[i+1]=='b') { ab++;}
         else if(s[i]=='b' && s[i+1]=='a') { ba++; }  
     }
-    
+ 
    //debug(ab,ba,miniabindex,minibaindex);
  
     if(ab==ba){
@@ -235,7 +235,18 @@ void solve()
         return;
     }
     else{
-        if(ab > ba){
+        if(ab > ba){  
+ 
+            //trying to reduce ab count to make it equal to ba  count is wrong strategy
+            //because in trying to do so, sometimes, reduction dont even happen
+            //example : aaabbbabb  , if i try to reduce first occurence of ab to say bb
+            //then aabbbbabb, ab count is still 2
+ 
+            //optimal choice is to increase ba count to same as ab count
+ 
+            //note if ab>ba  then this string must start with a
+            // change first occurence of a to b... then ab count= ba count
+ 
             auto it=s.find("a");
  
             s[it]='b';
@@ -243,6 +254,11 @@ void solve()
         }
         else if(ab< ba){
  
+            //optimal choice is to increase ab count to same as ba count
+ 
+            //note if ab<ba  then this string must start with b
+ 
+            // change first occurence of b to a... then ab count= ba count
             auto it=s.find("b");
  
             s[it]='a';
