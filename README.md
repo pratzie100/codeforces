@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 65 | 16 |
+| 66 | 17 |
 
 ---
 
@@ -15,6 +15,7 @@
 - [Uncategorized](#uncategorized) (6)
 - [bitmasks](#bitmasks) (3)
 - [brute force](#brute-force) (15)
+- [combinatorics](#combinatorics) (1)
 - [constructive algorithms](#constructive-algorithms) (11)
 - [data structures](#data-structures) (1)
 - [dfs and similar](#dfs-and-similar) (1)
@@ -23,7 +24,7 @@
 - [geometry](#geometry) (1)
 - [greedy](#greedy) (21)
 - [implementation](#implementation) (17)
-- [math](#math) (32)
+- [math](#math) (33)
 - [number theory](#number-theory) (10)
 - [sortings](#sortings) (5)
 - [strings](#strings) (4)
@@ -69,6 +70,12 @@
 | 1985B | [Максимальная сумма кратных чисел](https://codeforces.com/contest/1985/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1985/B%20-%20%D0%9C%D0%B0%D0%BA%D1%81%D0%B8%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F%20%D1%81%D1%83%D0%BC%D0%BC%D0%B0%20%D0%BA%D1%80%D0%B0%D1%82%D0%BD%D1%8B%D1%85%20%D1%87%D0%B8%D1%81%D0%B5%D0%BB/solution.cpp) |
 | 2010A | [Альтернированная сумма чисел](https://codeforces.com/contest/2010/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/2010/A%20-%20%D0%90%D0%BB%D1%8C%D1%82%D0%B5%D1%80%D0%BD%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F%20%D1%81%D1%83%D0%BC%D0%BC%D0%B0%20%D1%87%D0%B8%D1%81%D0%B5%D0%BB/solution.cpp) |
 | 2170A | [Максимальное соседство](https://codeforces.com/contest/2170/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/2170/A%20-%20%D0%9C%D0%B0%D0%BA%D1%81%D0%B8%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D1%81%D0%BE%D1%81%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%BE/solution.cpp) |
+
+### combinatorics
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1582B | [Лунтик и подпоследовательности](https://codeforces.com/contest/1582/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1582/B%20-%20%D0%9B%D1%83%D0%BD%D1%82%D0%B8%D0%BA%20%D0%B8%20%D0%BF%D0%BE%D0%B4%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8/solution.cpp) |
 
 ### constructive algorithms
 
@@ -171,6 +178,7 @@
 |---|---------|------------|----------|
 | 4A | [Арбуз](https://codeforces.com/contest/4/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/4/A%20-%20%D0%90%D1%80%D0%B1%D1%83%D0%B7/solution.cpp) |
 | 1475A | [Нечетный делитель](https://codeforces.com/contest/1475/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1475/A%20-%20%D0%9D%D0%B5%D1%87%D0%B5%D1%82%D0%BD%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BB%D0%B8%D1%82%D0%B5%D0%BB%D1%8C/solution.cpp) |
+| 1582B | [Лунтик и подпоследовательности](https://codeforces.com/contest/1582/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1582/B%20-%20%D0%9B%D1%83%D0%BD%D1%82%D0%B8%D0%BA%20%D0%B8%20%D0%BF%D0%BE%D0%B4%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8/solution.cpp) |
 | 1593B | [Делись на 25!](https://codeforces.com/contest/1593/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1593/B%20-%20%D0%94%D0%B5%D0%BB%D0%B8%D1%81%D1%8C%20%D0%BD%D0%B0%2025!/solution.cpp) |
 | 1726A | [Mainak и массив](https://codeforces.com/contest/1726/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1726/A%20-%20Mainak%20%D0%B8%20%D0%BC%D0%B0%D1%81%D1%81%D0%B8%D0%B2/solution.cpp) |
 | 1748A | [Огромный квадрат](https://codeforces.com/contest/1748/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1748/A%20-%20%D0%9E%D0%B3%D1%80%D0%BE%D0%BC%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82/solution.cpp) |
