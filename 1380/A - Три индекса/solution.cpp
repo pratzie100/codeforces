@@ -218,6 +218,11 @@ void solve()
     vi a(n);
     read(a);
  
+    // 1 2 3 4 5  (no peak)
+    // 5 4 3 2 1 (no peak)
+    // for peak to exist, mountain has to be formed at atleast one point
+    // so checking presence of adjacent required triplet is just fine 
+    // we will get atleast one peak if exist
     f(i,1,n-1){
             debug(i,a[i],a[i-1],a[i+1]);
         if( a[i]>a[i-1] && a[i]>a[i+1] ){
