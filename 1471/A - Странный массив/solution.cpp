@@ -223,23 +223,28 @@ void solve()
  
     // 12 34 56 7 8
  
+ 
+ 
+    // vi aa(n);
+ 
     ll maxb=0;
- 
-    vi aa(n);
- 
     ll s=0;
     f(i,0,n){
-        aa[i]=ceil(a[i]/(x * 1.0));
+        //aa[i]=ceil(a[i]/(x * 1.0));
+        
         maxb+= ceil(a[i]/(x * 1.0));
         s+=a[i];
     }
-    debug(s);
+    //debug(s);
  
     ll c1=ceil(s/(x*1.0)); //candidate for minimum beauty (all element got reduced)
  
  
    ll minb=c1;
+ 
     p(minb);sp;p(maxb);ln;
+ 
+//dont overcomplicate, think greedily
  
     // auto pre= pref(a);
     // auto suf=suff(a);    
