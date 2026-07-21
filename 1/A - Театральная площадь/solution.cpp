@@ -1,7 +1,16 @@
-//------------------------------------------------------------------///*@CodingBoy100*/
 #include <bits/stdc++.h>
 using namespace std;
  
+using ll = long long;
+ 
+//#define mod  1000000000000000007LL;  
+// const ll mod2= 1000000000000000007LL;  
+const ll INF = (1LL<<60);
+const ll M= 1000000000000000007LL; 
+const ll MOD = 1000000007LL;
+const ll MOD2 = 998244353LL;
+ 
+const int N = 100005;
 #ifndef ONLINE_JUDGE
 template<typename T> void _debug(const T&);
 template<typename A, typename B> void _debug(const pair<A,B>&);
@@ -105,8 +114,9 @@ void _debug_names(const char* names, const T& value, const Rest&... rest)
 #else
 #define debug(...)
 #endif
+// #include "pbds.hpp"
+// #include "number_theory.hpp"
  
-using ll = long long; 
 using ull = unsigned long long;
 #define endl "
 "
@@ -165,7 +175,11 @@ template<typename T> using st = stack<T>;
 template<typename T> using q = queue<T>;
 template<typename T> using dq = deque<T>;
 template<typename T> using us = unordered_set<T>;
+template<typename T> using ms = multiset<T>;
+template<typename T> using ums = unordered_multiset<T>;
 template<typename K, typename V> using um = unordered_map<K,V>;
+template<typename K, typename V> using mm = multimap<K,V>;
+template<typename K, typename V> using umm = unordered_multimap<K,V>;
 template<typename T1, typename T2> using vp = vector<pair<T1,T2>>;
  
 template<typename T> void rev(T& c){ reverse(all(c)); }
@@ -205,34 +219,17 @@ for(const auto &row:v)  out(row);}
  
 //------------------------------------------------------------------///*@CodingBoy100*/
  
-//#define mod  1000000000000000007LL;  
-// const ll mod2= 1000000000000000007LL;  
-const ll INF = (1LL<<60);
-const ll M= 1000000000000000007LL; 
-const ll MOD = 1000000007LL;
-const ll MOD2 = 998244353LL;
- 
 void solve()
 {
-    ri(n);
-    ri(m);
-    ri(a);
+	rll(n);
+	rll(m);
+	rll(a);
  
+	ll l= ceil(n/(a*1.0));
+	ll b= ceil(m/(a*1.0));
  
-    // 3 5 2
- 
-    // 5 3 2
- 
-    // . . . . . .
-    // . . . . . .
-    // . . . . . .
-    // . . . . . .
- 
-    int l= ceil(n/(a*1.0));
-    int b= ceil(m/(a*1.0));
- 
-    pln(1ll*l*b);
-}
+	pln(1ll * l *b);
+}	
  
  
 int main() {
