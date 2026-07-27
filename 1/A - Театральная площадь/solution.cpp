@@ -2,125 +2,24 @@
 using namespace std;
  
 using ll = long long;
- 
 //#define mod  1000000000000000007LL;  
 // const ll mod2= 1000000000000000007LL;  
 const ll INF = (1LL<<60);
 const ll M= 1000000000000000007LL; 
 const ll MOD = 1000000007LL;
 const ll MOD2 = 998244353LL;
- 
 const int N = 100005;
-#ifndef ONLINE_JUDGE
-template<typename T> void _debug(const T&);
-template<typename A, typename B> void _debug(const pair<A,B>&);
-template<typename T> void _debug(const vector<T>&);
-template<typename T> void _debug(const deque<T>&);
-template<typename T> void _debug(const set<T>&);
-template<typename T> void _debug(const multiset<T>&);
-template<typename T> void _debug(const unordered_set<T>&);
-template<typename T> void _debug(const unordered_multiset<T>&);
-template<typename K, typename V> void _debug(const map<K,V>&);
-template<typename K, typename V> void _debug(const multimap<K,V>&);
-template<typename K, typename V> void _debug(const unordered_map<K,V>&);
-template<typename K, typename V> void _debug(const unordered_multimap<K,V>&);
-template<typename T> void _debug(queue<T>);
-template<typename T> void _debug(stack<T>);
-template<typename T> void _debug(priority_queue<T>);
-template<typename T> void _debug(priority_queue <T, vector<T>, greater<T>>);
  
-inline void _debug(const string &s){ cerr << '"' << s << '"'; }
-inline void _debug(const char *s){ cerr << '"' << s << '"'; }
-inline void _debug(char c){ cerr << '\'' << c << '\''; }
-inline void _debug(bool b){ cerr << (b ? "true" : "false"); }
-inline void _debug(float x){auto p=cerr.precision();cerr<<setprecision(7)<<x;cerr.precision(p);}
-inline void _debug(double x){auto p=cerr.precision();cerr<<setprecision(15)<<x;cerr.precision(p);}
-inline void _debug(long double x){auto p=cerr.precision();cerr<<setprecision(18)<<x;cerr.precision(p);}
- 
-template<typename T>void _debug(const T &x){ cerr << x; } 
-template<typename A, typename B> void _debug(const pair<A,B> &p){ 
-cerr << "(";_debug(p.first); cerr << ", "; _debug(p.second); cerr << ")"; }
-template<typename T> void _debug(const vector<T> &v){
-    cerr << "["; bool first = true;
-    for(const auto &x : v){ if(!first) cerr << ", "; first = false; _debug(x); }
-    cerr << "]"; }
-template<typename T> void _debug(const deque<T> &v){
-    cerr << "[";  bool first = true; 
-    for(const auto &x : v){ if(!first) cerr << ", "; first = false; _debug(x); }
-    cerr << "]"; }
-template<typename T> void _debug(const set<T> &s){
-    cerr << "{"; bool first = true;
-    for(const auto &x : s){ if(!first) cerr << ", "; first = false; _debug(x); }
-    cerr << "}"; }
-template<typename T> void _debug(const multiset<T> &s){
-    cerr << "{"; bool first = true;
-    for(const auto &x : s){ if(!first) cerr << ", "; first = false; _debug(x); }
-    cerr << "}"; }
-template<typename T> void _debug(const unordered_set<T> &s){
-    cerr << "{"; bool first = true;
-    for(const auto &x : s){ if(!first) cerr << ", "; first = false; _debug(x); }
-    cerr << "}"; }
-template<typename T> void _debug(const unordered_multiset<T> &s){
-    cerr << "{"; bool first = true;
-    for(const auto &x : s){ if(!first) cerr << ", "; first = false; _debug(x); }
-    cerr << "}"; }
-template<typename K, typename V> void _debug(const map<K,V> &m){
-    cerr << "{"; bool first = true;
-    for(const auto &x : m){ if(!first) cerr << ", "; first = false; _debug(x); }
-    cerr << "}"; }
-template<typename K, typename V> void _debug(const multimap<K,V> &m){
-    cerr << "{"; bool first = true;
-    for(const auto &x : m){ if(!first) cerr << ", "; first = false; _debug(x); }
-    cerr << "}"; }
-template<typename K, typename V> void _debug(const unordered_map<K,V> &m){
-    cerr << "{"; bool first = true;
-    for(const auto &x : m){ if(!first) cerr << ", "; first = false; _debug(x); }
-    cerr << "}"; }
-template<typename K, typename V> void _debug(const unordered_multimap<K,V> &m){
-    cerr << "{"; bool first = true;
-    for(const auto &x : m){ if(!first) cerr << ", "; first = false; _debug(x); }
-    cerr << "}"; }
-template<typename T> void _debug(queue<T> q){
-    cerr << "<"; bool first = true;
-    while(!q.empty()){if(!first)cerr<<", "; first=false; _debug(q.front()); q.pop(); }
-    cerr << ">"; }
-template<typename T> void _debug(stack<T> s){
-    vector<T> v; while(!s.empty()){ v.push_back(s.top()); s.pop(); } _debug(v); }
-template<typename T> void _debug(priority_queue<T> pq){
-    cerr << "<"; bool first = true;
-    while(!pq.empty()){if(!first) cerr<<", "; first=false; _debug(pq.top()); pq.pop(); }
-    cerr << ">"; }
-template<typename T> void _debug(priority_queue<T, vector<T>, greater<T>> pq){
-    cerr << "<"; bool first = true;
-    while(!pq.empty()){if(!first) cerr<<", "; first=false; _debug(pq.top()); pq.pop(); }
-    cerr << ">"; }
- 
-// #define debug(x) cerr << #x << " = ", _debug(x), cerr << '
-'
-void _debug_names(const char*) {}
-template<typename T, typename... Rest>
-void _debug_names(const char* names, const T& value, const Rest&... rest)
-{
-    while(*names==' ') names++;
-    const char* comma = strchr(names, ',');
-    if(comma==nullptr) {
-        cerr.write(names,strlen(names)); cerr<<" = "; _debug(value); cerr<<'
-'; return; }
-    cerr.write(names, comma-names); cerr << " = "; _debug(value); cerr << '
-';
-    _debug_names(comma+1, rest...);
-}
-#define debug(...) _debug_names(#__VA_ARGS__, __VA_ARGS__)
+#ifdef LOCAL
+#include "debug.hpp"        
 #else
-#define debug(...)
+#define debug(...) 58
 #endif
-// #include "pbds.hpp"
-// #include "number_theory.hpp"
  
 using ull = unsigned long long;
 #define endl "
 "
-#define F first
+#define F first 
 #define S second
 #define pb push_back
 #define tc int t; cin>>t; while(t--)
@@ -217,19 +116,22 @@ template<typename T>
 void out(const vv<T>& v){ 
 for(const auto &row:v)  out(row);}
  
-//------------------------------------------------------------------///*@CodingBoy100*/
+//--------------------------------------------------///*@CodingBoy100*/
  
 void solve()
 {
-	rll(n);
-	rll(m);
-	rll(a);
+    rll(n);
+    rll(m);
+    rll(a);
  
-	ll l= ceil(n/(a*1.0));
-	ll b= ceil(m/(a*1.0));
+    debug(n,m,a);
  
-	pln(1ll * l *b);
-}	
+    ll l= ceil(n/(a*1.0));
+    ll k= ceil(m/(a*1.0));
+ 
+    debug(l,k);
+    pln(1ll * l *k);
+}   
  
  
 int main() {
@@ -238,7 +140,7 @@ int main() {
  
    // tc{TESTCASE++; debug(TESTCASE); solve();}
  
-     solve();
+    solve();
     
     ///*@CodingBoy100*/
    return 0;    
