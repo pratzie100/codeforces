@@ -13,9 +13,10 @@ const int N = 100005;
 #ifdef LOCAL
 #include "debug.hpp"        
 #else
-#define debug(...) 58
+#define debug(...) 42
 #endif
- 
+//#include "pbds.hpp"
+// #include "num_theo.hpp"
 using ull = unsigned long long;
 #define endl "
 "
@@ -116,7 +117,7 @@ template<typename T>
 void out(const vv<T>& v){ 
 for(const auto &row:v)  out(row);}
  
-//--------------------------------------------------///*@CodingBoy100*/
+//---------------------------------------------------///*@CodingBoy100*/
  
 void solve()
 {
@@ -127,10 +128,10 @@ void solve()
     debug(n,m,a);
  
     ll l= ceil(n/(a*1.0));
-    ll k= ceil(m/(a*1.0));
+    ll b= ceil(m/(a*1.0));
  
-    debug(l,k);
-    pln(1ll * l *k);
+    debug(l,b);
+    pln(1ll * l *b);
 }   
  
  
@@ -140,7 +141,7 @@ int main() {
  
    // tc{TESTCASE++; debug(TESTCASE); solve();}
  
-    solve();
+     solve();
     
     ///*@CodingBoy100*/
    return 0;    
