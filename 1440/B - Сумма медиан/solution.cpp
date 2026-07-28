@@ -156,6 +156,8 @@ void solve()
     //     return;
     // }
  
+    //inspecting 4 2 , 6 2 
+    //inspecting 1 5 , 3 2, 3 4 , 5 2..etc 
  
    if(n&1){
         ll sum=0;
