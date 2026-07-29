@@ -217,11 +217,17 @@ void solve()
       // ..i-1, i+2,i+3... (remove i,i+1)
       // ...i-1, i, i+3....(remove i+1,i+2)
  
-      int cnt=0;
+      int bad=0; 
       f(i,0,n-2){
-         if(s[i]!=s[i+2]) cnt++;
-      }
-      pln(cnt+1);
+         // if(s[i]!=s[i+2]) cnt++;
+         
+         if(s[i]==s[i+2]) bad++; //same string will be repeated one extra time
+      }  
+      //pln(cnt+1);
+      
+      int total= n-1; //total pssible strings
+      
+      pln(total-bad);
  
 }	
  
