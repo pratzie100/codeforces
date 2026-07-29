@@ -1,0 +1,239 @@
+//---------------------------------------------------------------//
+/** 
+   author : @CodingBoy100
+**/
+//---------------------------------------------------------------//
+ 
+#include <bits/stdc++.h>
+using namespace std;
+ 
+using ll = long long;
+//#define mod  1000000000000000007LL;  
+// const ll mod2= 1000000000000000007LL;  
+const ll INF = (1LL<<60);
+const ll M= 1000000000000000007LL; 
+const ll MOD = 1000000007LL;
+const ll MOD2 = 998244353LL;
+const int N = 100005;
+ 
+#ifdef LOCAL
+#include "debug.hpp"        
+#else
+#define debug(...) 71
+#endif
+// #include "pbds.hpp"
+// #include "num_theo.hpp"
+using ull = unsigned long long;
+#define endl "
+"
+#define F first 
+#define S second
+#define pb push_back
+#define tc int t; cin>>t; while(t--)
+ll TESTCASE=0;
+#define all(v) (v).begin(),(v).end()
+#define rall(v) (v).rbegin(),(v).rend()
+#define ri(x) int x; cin >> x
+#define rll(x) ll x; cin >> x
+#define rs(s) string s; cin >> s
+#define rc(c) char c; cin >> c
+#define rf(x) float x; cin >> x
+#define rd(x) double x; cin >> x
+#define rld(x) long double x; cin >> x
+#define sz(x) ((int)(x).size())
+#define lb lower_bound
+#define ub upper_bound
+ 
+#define p(x) cout << x
+#define sp cout << ' '
+#define pln(x) cout << x << '
+'
+#define ln cout << '
+'
+#define yes cout<<"YES"
+#define no cout<<"NO"
+#define yesln cout<<"YES
+"
+#define noln cout<<"NO
+"
+#define yn(cond) cout << ((cond) ? "YES
+" : "NO
+")
+ 
+#define f(i,a,b) for(int i=(a); i<(b); i++)
+#define fr(i,a,b) for(int i=(a); i>=(b); i--)
+#define fx(i,a,b,x) for(int i=(a); i<(b); i+=(x))
+#define frx(i,a,b,x) for(int i=(a); i>=(b); i-=(x))
+#define fit(it,c) for(auto it=(c).begin(); it!=(c).end(); it++)
+#define frit(it,c) for(auto it=(c).rbegin(); it!=(c).rend(); it++)
+#define each(x,v) for(auto &x : v)
+ 
+using vi = vector<int>;
+using vc = vector<char>;
+using vs = vector<string>;
+using vll = vector<ll>;
+using pii = pair<int,int>;
+using pll = pair<ll,ll>;
+template<typename T> using vv = vector<vector<T>>;
+template<typename T> using pq = priority_queue<T>;
+template<typename T> using minpq = priority_queue<T,vector<T>,greater<T>>;
+template<typename T> using st = stack<T>;
+template<typename T> using q = queue<T>;
+template<typename T> using dq = deque<T>;
+template<typename T> using us = unordered_set<T>;
+template<typename T> using ms = multiset<T>;
+template<typename T> using ums = unordered_multiset<T>;
+template<typename K, typename V> using um = unordered_map<K,V>;
+template<typename K, typename V> using mm = multimap<K,V>;
+template<typename K, typename V> using umm = unordered_multimap<K,V>;
+template<typename T1, typename T2> using vp = vector<pair<T1,T2>>;
+ 
+template<typename T> void rev(T& c){ reverse(all(c)); }
+template<typename T> void srt(T& c){ sort(all(c)); }
+template<typename T> void rsrt(T& c){ sort(rall(c)); }
+template<typename T>  long long accum(const vector<T>& v){ return accumulate(all(v), 0LL); }
+template<typename T> T maxele(const vector<T>& v){ return *max_element(all(v)); }
+template<typename T> T minele(const vector<T>& v){ return *min_element(all(v)); }
+template<typename T> void uniq(vector<T>& v){ srt(v); v.erase(unique(all(v)), v.end()); }
+template<typename T> vector<T> pref(const vector<T>& v){
+    vector<T> pre(v.size()); partial_sum(all(v), pre.begin()); return pre; }
+template<typename T> vector<T> suff(const vector<T>& v){
+    vector<T> suf(v.size()); partial_sum(rall(v), suf.rbegin()); return suf; }
+ 
+// ll mygcd(ll a,ll b){return b?mygcd(b,a%b):a;}   //__gcd(a,b)
+// ll mylcm(ll a, ll b) {return a/mygcd(a,b)*b;}
+template<typename T> T gcd(T a, T b){ return std::gcd(a, b); }
+template<typename T> T lcm(T a, T b){ return std::lcm(a, b); }
+template<typename T>bool chmax(T &a,const T &b){ if(b>a){ a=b; return true; } return false; }
+template<typename T>bool chmin(T &a,const T &b){ if(b<a){ a=b; return true; } return false; }
+template<typename T> bool inside(T x,T y,T n,T m){ return x>=0 && x<n && y>=0 && y<m;}
+ 
+template<typename T> void read(T &x){ cin>>x; }
+template<typename T> void read(vector<T>& v){ for(auto &x:v) read(x); }
+template<typename T> void read(vector<vector<T>>& v){ for(auto &row:v) read(row); }
+template<typename T1, typename T2> ostream& operator<<(ostream& os, const pair<T1,T2>& p){
+    return os << '(' << p.first << ", " << p.second << ')';
+}
+template<typename Container> 
+void out(const Container& c){
+    for(const auto &x : c) cout << x << ' ';
+    cout << '
+'; }
+template<typename T> 
+void out(const vv<T>& v){ 
+for(const auto &row:v)  out(row);}
+ 
+//-------------------------///*@CodingBoy100*/------------------------/
+ 
+void solve()
+{
+   ri(n);
+   rs(s);
+ 
+ //    unordered_set<string>st;
+      
+//    string pre="";
+//    vector<string>prefix;
+//    f(i,0,n-2){
+//       pre+=s[i];  
+//       prefix.pb(pre);
+//    }
+ 
+ 
+// //   string suf="";
+//    vector<string>suffix;
+//    f(i,2,n){
+//       // suf+=s[i];
+//       // rev(suf);  
+//       suffix.pb(s.substr(i));
+//    }    
+//   // rev(suffix);
+ 
+//    st.insert(prefix[prefix.size()-1]);
+//    st.insert(suffix[0]);
+ 
+//    f(i,0,prefix.size()-1){
+//       string left=prefix[i];
+//       string right=suffix[i+1];
+//       st.insert(left+right);
+//    }
+ 
+ 
+//    pln(st.size());
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+//    unordered_set<string>st;
+      
+//    // vector<string>prefix;
+//    // vector<string>suffix;
+ 
+//    f(i,0,n-2){
+ 
+//       // prefix.pb(s.substr(0,i+1));
+//       // suffix.pb(s.substr(i+2));
+ 
+//       // if(i==0) st.insert(suffix[i]);
+//       // if(i==n-3) st.insert(prefix[i]);
+ 
+// // from above four lines, clear that, 
+// //prefix[i] = s.substr(0,i+1)
+// //suffix[i] = s.substr(i+2)    NOW just replace prefix suffix arrays no longer need 
+ 
+//       // if(i==0) st.insert(suffix[i]);
+//       // if(i==n-3) st.insert(prefix[i]);
+ 
+//       // if(i>=1 && i<=n-3){
+//       //    // string left=prefix[i-1];
+//       //    // string right=suffix[i];
+//       //    st.insert(prefix[i-1]+suffix[i]);
+//       // }
+ 
+ 
+//       if(i==0) st.insert(s.substr(i+2));
+//       if(i==n-3) st.insert(s.substr(0,i+1));
+ 
+//       if(i>=1 && i<=n-3){
+ 
+//          st.insert(s.substr(0,i) + s.substr(i+2));
+//       }
+//    }
+ 
+//    pln(st.size());
+ 
+ 
+ 
+ 
+      // .. i-1, i, i+1, i+2, i+3..
+      // ..i-1, i+2,i+3... (remove i,i+1)
+      // ...i-1, i, i+3....(remove i+1,i+2)
+ 
+      int cnt=0;
+      f(i,0,n-2){
+         if(s[i]!=s[i+2]) cnt++;
+      }
+      pln(cnt+1);
+ 
+}	
+ 
+ 
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+ 
+    tc{TESTCASE++; debug(TESTCASE); solve();}
+ 
+    //solve();
+    
+    ///*@CodingBoy100*/
+   return 0;    
+}
