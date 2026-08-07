@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 86 | 18 |
+| 87 | 18 |
 
 ---
 
@@ -17,12 +17,12 @@
 - [brute force](#brute-force) (19)
 - [combinatorics](#combinatorics) (2)
 - [constructive algorithms](#constructive-algorithms) (11)
-- [data structures](#data-structures) (3)
+- [data structures](#data-structures) (4)
 - [dfs and similar](#dfs-and-similar) (1)
 - [dp](#dp) (1)
 - [games](#games) (2)
 - [geometry](#geometry) (1)
-- [greedy](#greedy) (28)
+- [greedy](#greedy) (29)
 - [hashing](#hashing) (1)
 - [implementation](#implementation) (19)
 - [math](#math) (40)
@@ -113,6 +113,7 @@
 | 1380A | [Три индекса](https://codeforces.com/contest/1380/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1380/A%20-%20%D0%A2%D1%80%D0%B8%20%D0%B8%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%D0%B0/solution.cpp) |
 | 1800D | [Удали два символа](https://codeforces.com/contest/1800/problem/D) | 1200 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1800/D%20-%20%D0%A3%D0%B4%D0%B0%D0%BB%D0%B8%20%D0%B4%D0%B2%D0%B0%20%D1%81%D0%B8%D0%BC%D0%B2%D0%BE%D0%BB%D0%B0/solution.cpp) |
 | 1807D | [Нечётные запросы](https://codeforces.com/contest/1807/problem/D) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1807/D%20-%20%D0%9D%D0%B5%D1%87%D1%91%D1%82%D0%BD%D1%8B%D0%B5%20%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%D1%8B/solution.cpp) |
+| 2252A | [Финальная битва](https://codeforces.com/contest/2252/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/2252/A%20-%20%D0%A4%D0%B8%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F%20%D0%B1%D0%B8%D1%82%D0%B2%D0%B0/solution.cpp) |
 
 ### dfs and similar
 
@@ -170,6 +171,7 @@
 | 2170A | [Максимальное соседство](https://codeforces.com/contest/2170/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/2170/A%20-%20%D0%9C%D0%B0%D0%BA%D1%81%D0%B8%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D1%81%D0%BE%D1%81%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%BE/solution.cpp) |
 | 2240A | [Ещё одна задача про popcount](https://codeforces.com/contest/2240/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/2240/A%20-%20%D0%95%D1%89%D1%91%20%D0%BE%D0%B4%D0%BD%D0%B0%20%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B0%20%D0%BF%D1%80%D0%BE%20popcount/solution.cpp) |
 | 2241A | [Дели и властвуй](https://codeforces.com/contest/2241/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/2241/A%20-%20%D0%94%D0%B5%D0%BB%D0%B8%20%D0%B8%20%D0%B2%D0%BB%D0%B0%D1%81%D1%82%D0%B2%D1%83%D0%B9/solution.cpp) |
+| 2252A | [Финальная битва](https://codeforces.com/contest/2252/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/2252/A%20-%20%D0%A4%D0%B8%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F%20%D0%B1%D0%B8%D1%82%D0%B2%D0%B0/solution.cpp) |
 | 2254C2 | [Marenol (сложная версия)](https://codeforces.com/contest/2254/problem/C2) | Unrated | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/2254/C2%20-%20Marenol%20(%D1%81%D0%BB%D0%BE%D0%B6%D0%BD%D0%B0%D1%8F%20%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F)/solution.cpp) |
 
 ### hashing
