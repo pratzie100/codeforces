@@ -114,27 +114,98 @@ void solve()
  
 	// pln(left.size() + right.size());
  
-	unordered_set<char>left;
-	vector<int>cntleft;
+	// int ans=-1;
+	// f(i,0,n-1){
+ 
+	// 	string left= s.substr(0,i+1);
+	// 	string right=s.substr(i+1,n-(i+1));
+	// 	unordered_set<char>l(all(left));
+	// 	unordered_set<char>r(all(right));
+	// 	int lef=l.size();
+	// 	int rig=r.size();
+	// 	ans=max(ans,(lef+ rig));
+	// }	
+	// pln(ans);
+ 
+ 
+ 
+	// unordered_set<char>left;
+	// vector<int>cntleft;
+	// f(i,0,n-1){
+	// 	left.insert(s[i]);
+	// 	cntleft.pb(left.size());
+	// }	
+	// unordered_set<char>right;
+	// vector<int>cntright;
+	// fr(i,n-1,1){
+	// 	right.insert(s[i]);
+	// 	cntright.pb(right.size());
+	// }
+	// debug(cntleft,cntright);
+ 
+	// int ans=-1;
+	// f(i,0,cntleft.size()){
+	// 	ans=max(ans, cntleft[i]+cntright[cntright.size()-1-i]);
+	// }
+	// pln(ans);
+ 
+ 
+ 
+ 
+	// unordered_set<char>st;
+	// vector<int>cntleft;
+	// f(i,0,n-1){
+	// 	st.insert(s[i]);
+	// 	cntleft.pb(st.size());
+	// }	
+	// st.clear();
+	// vector<int>cntright;
+	// fr(i,n-1,1){
+	// 	st.insert(s[i]);
+	// 	cntright.pb(st.size());
+	// }
+	// debug(cntleft,cntright);
+ 
+	// int ans=-1;
+	// f(i,0,cntleft.size()){
+	// 	ans=max(ans, cntleft[i]+cntright[cntright.size()-1-i]);
+	// }
+	// pln(ans);
+ 
+ 
+ 
+ 
+ 
+	vi freq(26);
+	vi left;
+	vi right;
+	int distinct=0;
 	f(i,0,n-1){
-		left.insert(s[i]);
-		cntleft.pb(left.size());
-	}	
-	unordered_set<char>right;
-	vector<int>cntright;
-	fr(i,n-1,1){
-		right.insert(s[i]);
-		cntright.pb(right.size());
+		if(freq[s[i]-'a']==0){
+			distinct++;
+		}
+		freq[s[i]-'a']++;
+		left.pb(distinct);
 	}
-	debug(cntleft,cntright);
+	
+	//freq.clear();
+	freq = vector<int>(26);
+	distinct=0;
+	fr(i,n-1,1){
+		if(freq[s[i]-'a']==0){
+			distinct++;
+		}
+		freq[s[i]-'a']++;
+		right.pb(distinct);
+	}
  
 	int ans=-1;
-	f(i,0,cntleft.size()){
-		ans=max(ans, cntleft[i]+cntright[cntright.size()-1-i]);
+	f(i,0,n-1){ //n-1 is size of left and right array
+		ans=max(ans, left[i] + right[(n-1)-1-i] );
 	}
 	pln(ans);
 }  
-//aaabbbbcc
+ 
  
 int main() {
     ios::sync_with_stdio(false);
