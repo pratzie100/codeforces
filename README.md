@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 91 | 18 |
+| 92 | 18 |
 
 ---
 
@@ -25,7 +25,7 @@
 - [greedy](#greedy) (31)
 - [hashing](#hashing) (1)
 - [implementation](#implementation) (20)
-- [math](#math) (41)
+- [math](#math) (42)
 - [number theory](#number-theory) (13)
 - [sortings](#sortings) (6)
 - [strings](#strings) (10)
@@ -215,6 +215,7 @@
 |---|---------|------------|----------|
 | 1A | [Театральная площадь](https://codeforces.com/contest/1/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1/A%20-%20%D0%A2%D0%B5%D0%B0%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D1%8C/solution.cpp) |
 | 4A | [Арбуз](https://codeforces.com/contest/4/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/4/A%20-%20%D0%90%D1%80%D0%B1%D1%83%D0%B7/solution.cpp) |
+| 318A | [Чет и нечет](https://codeforces.com/contest/318/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/318/A%20-%20%D0%A7%D0%B5%D1%82%20%D0%B8%20%D0%BD%D0%B5%D1%87%D0%B5%D1%82/solution.cpp) |
 | 479A | [Выражение](https://codeforces.com/contest/479/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/479/A%20-%20%D0%92%D1%8B%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5/solution.cpp) |
 | 1374B | [Умножай на 2, дели на 6](https://codeforces.com/contest/1374/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1374/B%20-%20%D0%A3%D0%BC%D0%BD%D0%BE%D0%B6%D0%B0%D0%B9%20%D0%BD%D0%B0%202%2C%20%D0%B4%D0%B5%D0%BB%D0%B8%20%D0%BD%D0%B0%206/solution.cpp) |
 | 1440B | [Сумма медиан](https://codeforces.com/contest/1440/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1440/B%20-%20%D0%A1%D1%83%D0%BC%D0%BC%D0%B0%20%D0%BC%D0%B5%D0%B4%D0%B8%D0%B0%D0%BD/solution.cpp) |
