@@ -70,20 +70,25 @@ using vi = vector<int>;
 void solve()
 {
     int a,b; cin>>a>>b;
-    if(a==1){
-        pln(b/2);
-    }
-    else{
-        if(a%2==0){
-            int v= a/2;
-            pln(v*b);
-        }
-        else{
-            int v=a/2;
-            pln(v*b  +  ( b/2));
-        }
+    // if(a==1){
+    //     pln(b/2);
+    // }
+    // else{
+    //     if(a%2==0){
+    //         int v= a/2;
+    //         pln(v*b);
+    //     }
+    //     else{
+    //         int v=a/2;
+    //         pln(v*b  +  ( b/2));
+    //     }
  
-    }
+    // }
+ 
+ 
+ 
+    //vector of size 2 cut (a*b) area space in half  [2 sqare area = 1 vector]
+    pln( (a*b)/2);
  
 }  
  
