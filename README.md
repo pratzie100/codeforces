@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 103 | 19 |
+| 104 | 19 |
 
 ---
 
@@ -29,7 +29,7 @@
 - [math](#math) (43)
 - [number theory](#number-theory) (13)
 - [sortings](#sortings) (8)
-- [strings](#strings) (12)
+- [strings](#strings) (13)
 - [two pointers](#two-pointers) (1)
 
 ---
@@ -317,6 +317,7 @@
 | 71A | [Слишком длинные слова](https://codeforces.com/contest/71/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/71/A%20-%20%D0%A1%D0%BB%D0%B8%D1%88%D0%BA%D0%BE%D0%BC%20%D0%B4%D0%BB%D0%B8%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D0%BB%D0%BE%D0%B2%D0%B0/solution.cpp) |
 | 96A | [Футбол](https://codeforces.com/contest/96/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/96/A%20-%20%D0%A4%D1%83%D1%82%D0%B1%D0%BE%D0%BB/solution.cpp) |
 | 118A | [Упражнение на строки](https://codeforces.com/contest/118/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/118/A%20-%20%D0%A3%D0%BF%D1%80%D0%B0%D0%B6%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BD%D0%B0%20%D1%81%D1%82%D1%80%D0%BE%D0%BA%D0%B8/solution.cpp) |
+| 208A | [Дабстеп](https://codeforces.com/contest/208/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/208/A%20-%20%D0%94%D0%B0%D0%B1%D1%81%D1%82%D0%B5%D0%BF/solution.cpp) |
 | 281A | [Капитализация слова](https://codeforces.com/contest/281/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/281/A%20-%20%D0%9A%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20%D1%81%D0%BB%D0%BE%D0%B2%D0%B0/solution.cpp) |
 | 520A | [Панграмма](https://codeforces.com/contest/520/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/520/A%20-%20%D0%9F%D0%B0%D0%BD%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0/solution.cpp) |
 | 1606A | [Баланс AB](https://codeforces.com/contest/1606/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1606/A%20-%20%D0%91%D0%B0%D0%BB%D0%B0%D0%BD%D1%81%20AB/solution.cpp) |
