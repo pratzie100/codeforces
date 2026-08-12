@@ -71,21 +71,38 @@ void solve()
  
     bool ok=1;
  
-    vv<int>v;
+    // vv<int>v;
+    // while(n--){
+    //     ri(ms); ri(b);
+ 
+    //     v.pb({ms,b});
+    // }
+    // sort(all(v));
+ 
+    // each(x,v){
+    //     if(s<=x[0]){
+    //         ok=0;
+    //     }
+    //     else{
+    //         s+=x[1];
+    //     }
+    // }
+    
+    vector<pair<int,int>>v;
     while(n--){
         ri(ms); ri(b);
  
-        v.pb({ms,b});
+        v.pb(make_pair(ms,b));
     }
  
     sort(all(v));
  
     each(x,v){
-        if(s<=x[0]){
+        if(s<=x.first){
             ok=0;
         }
         else{
-            s+=x[1];
+            s+=x.second;
         }
     }
     yn(ok);
