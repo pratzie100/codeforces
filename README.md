@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 108 | 19 |
+| 109 | 20 |
 
 ---
 
@@ -14,6 +14,7 @@
 
 - [*special](#special) (2)
 - [Uncategorized](#uncategorized) (14)
+- [binary search](#binary-search) (1)
 - [bitmasks](#bitmasks) (3)
 - [brute force](#brute-force) (22)
 - [combinatorics](#combinatorics) (2)
@@ -25,10 +26,10 @@
 - [geometry](#geometry) (1)
 - [greedy](#greedy) (38)
 - [hashing](#hashing) (1)
-- [implementation](#implementation) (29)
-- [math](#math) (43)
+- [implementation](#implementation) (30)
+- [math](#math) (44)
 - [number theory](#number-theory) (13)
-- [sortings](#sortings) (9)
+- [sortings](#sortings) (10)
 - [strings](#strings) (14)
 - [two pointers](#two-pointers) (1)
 
@@ -59,6 +60,12 @@
 | 2254B | [Сокращение](https://codeforces.com/contest/2254/problem/B) | Unrated | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/2254/B%20-%20%D0%A1%D0%BE%D0%BA%D1%80%D0%B0%D1%89%D0%B5%D0%BD%D0%B8%D0%B5/solution.cpp) |
 | 2254C1 | [Marenol (простая версия)](https://codeforces.com/contest/2254/problem/C1) | Unrated | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/2254/C1%20-%20Marenol%20(%D0%BF%D1%80%D0%BE%D1%81%D1%82%D0%B0%D1%8F%20%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F)/solution.cpp) |
 | 2256A | [Три числа на доске](https://codeforces.com/contest/2256/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/2256/A%20-%20%D0%A2%D1%80%D0%B8%20%D1%87%D0%B8%D1%81%D0%BB%D0%B0%20%D0%BD%D0%B0%20%D0%B4%D0%BE%D1%81%D0%BA%D0%B5/solution.cpp) |
+
+### binary search
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 492B | [Ваня и фонари](https://codeforces.com/contest/492/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/492/B%20-%20%D0%92%D0%B0%D0%BD%D1%8F%20%D0%B8%20%D1%84%D0%BE%D0%BD%D0%B0%D1%80%D0%B8/solution.cpp) |
 
 ### bitmasks
 
@@ -216,6 +223,7 @@
 | 281A | [Капитализация слова](https://codeforces.com/contest/281/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/281/A%20-%20%D0%9A%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20%D1%81%D0%BB%D0%BE%D0%B2%D0%B0/solution.cpp) |
 | 282A | [Bit++](https://codeforces.com/contest/282/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/282/A%20-%20Bit%2B%2B/solution.cpp) |
 | 405A | [Переключение гравитации](https://codeforces.com/contest/405/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/405/A%20-%20%D0%9F%D0%B5%D1%80%D0%B5%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B3%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D0%B0%D1%86%D0%B8%D0%B8/solution.cpp) |
+| 492B | [Ваня и фонари](https://codeforces.com/contest/492/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/492/B%20-%20%D0%92%D0%B0%D0%BD%D1%8F%20%D0%B8%20%D1%84%D0%BE%D0%BD%D0%B0%D1%80%D0%B8/solution.cpp) |
 | 520A | [Панграмма](https://codeforces.com/contest/520/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/520/A%20-%20%D0%9F%D0%B0%D0%BD%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0/solution.cpp) |
 | 580A | [Кефа и первые шаги](https://codeforces.com/contest/580/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/580/A%20-%20%D0%9A%D0%B5%D1%84%D0%B0%20%D0%B8%20%D0%BF%D0%B5%D1%80%D0%B2%D1%8B%D0%B5%20%D1%88%D0%B0%D0%B3%D0%B8/solution.cpp) |
 | 1675B | [Сделай возрастающую](https://codeforces.com/contest/1675/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1675/B%20-%20%D0%A1%D0%B4%D0%B5%D0%BB%D0%B0%D0%B9%20%D0%B2%D0%BE%D0%B7%D1%80%D0%B0%D1%81%D1%82%D0%B0%D1%8E%D1%89%D1%83%D1%8E/solution.cpp) |
@@ -245,6 +253,7 @@
 | 50A | [Укладка доминошками](https://codeforces.com/contest/50/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/50/A%20-%20%D0%A3%D0%BA%D0%BB%D0%B0%D0%B4%D0%BA%D0%B0%20%D0%B4%D0%BE%D0%BC%D0%B8%D0%BD%D0%BE%D1%88%D0%BA%D0%B0%D0%BC%D0%B8/solution.cpp) |
 | 318A | [Чет и нечет](https://codeforces.com/contest/318/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/318/A%20-%20%D0%A7%D0%B5%D1%82%20%D0%B8%20%D0%BD%D0%B5%D1%87%D0%B5%D1%82/solution.cpp) |
 | 479A | [Выражение](https://codeforces.com/contest/479/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/479/A%20-%20%D0%92%D1%8B%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5/solution.cpp) |
+| 492B | [Ваня и фонари](https://codeforces.com/contest/492/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/492/B%20-%20%D0%92%D0%B0%D0%BD%D1%8F%20%D0%B8%20%D1%84%D0%BE%D0%BD%D0%B0%D1%80%D0%B8/solution.cpp) |
 | 1374B | [Умножай на 2, дели на 6](https://codeforces.com/contest/1374/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1374/B%20-%20%D0%A3%D0%BC%D0%BD%D0%BE%D0%B6%D0%B0%D0%B9%20%D0%BD%D0%B0%202%2C%20%D0%B4%D0%B5%D0%BB%D0%B8%20%D0%BD%D0%B0%206/solution.cpp) |
 | 1440B | [Сумма медиан](https://codeforces.com/contest/1440/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1440/B%20-%20%D0%A1%D1%83%D0%BC%D0%BC%D0%B0%20%D0%BC%D0%B5%D0%B4%D0%B8%D0%B0%D0%BD/solution.cpp) |
 | 1471A | [Странный массив](https://codeforces.com/contest/1471/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1471/A%20-%20%D0%A1%D1%82%D1%80%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9%20%D0%BC%D0%B0%D1%81%D1%81%D0%B8%D0%B2/solution.cpp) |
@@ -309,6 +318,7 @@
 | 160A | [Близнецы](https://codeforces.com/contest/160/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/160/A%20-%20%D0%91%D0%BB%D0%B8%D0%B7%D0%BD%D0%B5%D1%86%D1%8B/solution.cpp) |
 | 230A | [Драконы](https://codeforces.com/contest/230/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/230/A%20-%20%D0%94%D1%80%D0%B0%D0%BA%D0%BE%D0%BD%D1%8B/solution.cpp) |
 | 405A | [Переключение гравитации](https://codeforces.com/contest/405/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/405/A%20-%20%D0%9F%D0%B5%D1%80%D0%B5%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B3%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D0%B0%D1%86%D0%B8%D0%B8/solution.cpp) |
+| 492B | [Ваня и фонари](https://codeforces.com/contest/492/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/492/B%20-%20%D0%92%D0%B0%D0%BD%D1%8F%20%D0%B8%20%D1%84%D0%BE%D0%BD%D0%B0%D1%80%D0%B8/solution.cpp) |
 | 1783A | [Сделай массив красивым](https://codeforces.com/contest/1783/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1783/A%20-%20%D0%A1%D0%B4%D0%B5%D0%BB%D0%B0%D0%B9%20%D0%BC%D0%B0%D1%81%D1%81%D0%B8%D0%B2%20%D0%BA%D1%80%D0%B0%D1%81%D0%B8%D0%B2%D1%8B%D0%BC/solution.cpp) |
 | 1850A | [To My Critics](https://codeforces.com/contest/1850/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1850/A%20-%20To%20My%20Critics/solution.cpp) |
 | 1896A | [Пиковые обмены](https://codeforces.com/contest/1896/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1896/A%20-%20%D0%9F%D0%B8%D0%BA%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BE%D0%B1%D0%BC%D0%B5%D0%BD%D1%8B/solution.cpp) |
