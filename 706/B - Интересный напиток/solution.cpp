@@ -68,6 +68,28 @@ using vi = vector<int>;
  
 void solve()
 {      
+    //METHOD 1
+    // ri(n);
+    // vi a(n);
+    // read(a);
+    // ri(q);
+    // sort(all(a));
+    // while(q--){
+    //     ri(m);
+    //     auto it = ub(all(a),m);
+    //     if(it==begin(a)){
+    //         pln(0);
+    //     }
+    //     else{
+    //         pln(it-begin(a));
+    //     }
+    // }
+ 
+ 
+ 
+ 
+ 
+ 
     ri(n);
     vi a(n);
     read(a);
@@ -75,13 +97,21 @@ void solve()
     sort(all(a));
     while(q--){
         ri(m);
-        auto it = ub(all(a),m);
-        if(it==begin(a)){
-            pln(0);
+        int low=0;
+        int high=n-1;
+        int ans=-1323;
+        while(low<=high){
+            int mid=low+(high-low)/2;
+            if(a[mid]<=m){
+                ans=max(ans,mid+1);
+                low=mid+1;
+            } 
+            else{
+                high=mid-1;
+            }
         }
-        else{
-            pln(it-begin(a));
-        }
+       //if(high==-1) pln(0);
+        pln(high+1);
     }
 }  
  
