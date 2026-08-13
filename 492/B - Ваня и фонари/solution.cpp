@@ -31,11 +31,13 @@ ll TESTCASE=0;
 #define rc(c) char c; cin >> c
 #define lb lower_bound
 #define ub upper_bound
-#define p(x) cout << x
 #define sp cout << ' '
+#define ln cout << '
+'
+#define p(x) cout << x
 #define pln(x) cout << x << '
 '
-#define ln cout << '
+#define pdln(x) cout<<fixed<<setprecision(15)<<(x)<<'
 '
 #define yn(cond) cout << ((cond) ? "YES
 " : "NO
@@ -83,9 +85,7 @@ void solve()
  
     double ans=max({c1,c2,c3});
  
-// Set fixed floating point format with at least 9 or 10 decimal places
-    cout<<fixed<<setprecision(12)<<ans<<'
-';
+    pdln(ans); 
  
  
  
