@@ -73,15 +73,19 @@ void solve()
     ri(a);
     ri(b);
  
-    if(m>=n){
-     pln(min ( n*a ,  b)); 
-     return;
-    }
+    // if(m>=n){
+    //  pln(min ( n*a ,  b)); 
+    //  return;
+    // }
  
-  //  int c1= n*a;
+    // pln(min (  {n*a , (n/m)*b +  (n%m)*a , (n/m)*b+b}));
  
  
-    pln(min (  {n*a , (n/m)*b +  (n%m)*a , (n/m)*b+b}));
+    int c1=n*a;
+    int c2= (n/m)*b + (n%m)*a;
+    int c3= ceil(n/ (m*1.0)) * b ;   //or  int c3= (n/m)*b + b;
+ 
+    pln(min({c1,c2,c3}));
 }  
  
     
