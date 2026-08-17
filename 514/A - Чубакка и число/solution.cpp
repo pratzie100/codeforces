@@ -78,26 +78,72 @@ void solve()
         y/=10;
     }
  
-    string s=to_string(n);
+    // string s=to_string(n);
     
  
-    f(i,0,s.size()){
-        int dig=  s[i]-'0';
+    // f(i,0,s.size()){
+    //     int dig=  s[i]-'0';
         
-        int need=  min( dig, 9-dig);
+    //     int need=  min( dig, 9-dig);
  
-        if(i==0 && need==0) continue; //for test case :  9 
-        string p= to_string(need);
+    //     if(i==0 && need==0) continue; //for test case :  9 
+    //     string p= to_string(need);
  
-        s[i]=p[0];
+    //     s[i]=p[0];
+    // }
  
-        // debug(x);
  
-        // s[i]= 'x'; 
+    // pln(s);
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    // ll ans=0;
+    // ll p=1; 
+    // int i=0;
+    // while(c--){
+    //     ll dig= n%10;
+ 
+    //     dig= min(dig, 9-dig);
+    //     if(i==0 && dig==9) dig=9;
+    //     else  dig= min(dig, 9-dig);
+ 
+    //     ans+=(1ll* dig*p);
+ 
+    //     p*=10;
+    //     n/=10;
+    //     i++;
+    // }
+    // pln(ans);
+ 
+ 
+ 
+ 
+    ll ans=0;
+ 
+    int i=0;
+    while(c){
+        
+ 
+        ll p= pow(10,c-1);
+ 
+        int dig= (n/p)%10;
+        if(i==0 && dig==9) dig=9;
+        else  dig= min(dig, 9-dig);
+ 
+        ans=(1ll* ans*10)+dig;
+ 
+        n%=p;
+        c--;
+        i++;
     }
+    pln(ans);
  
  
-    pln(s);
+ 
 }  
  
  
