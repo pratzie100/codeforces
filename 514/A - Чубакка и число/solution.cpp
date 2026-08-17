@@ -86,7 +86,7 @@ void solve()
         
         int need=  min( dig, 9-dig);
  
-        if(i==0 && need==0) continue;
+        if(i==0 && need==0) continue; //for test case :  9 
         string p= to_string(need);
  
         s[i]=p[0];
