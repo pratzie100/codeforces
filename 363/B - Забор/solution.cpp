@@ -142,7 +142,7 @@ void solve()
     int r=0;
     ll s=0;
  
-    ll minh=LLONG_MAX;
+    int minh=INT_MAX;
     int minj=-2344;
  
     while(r<n){
