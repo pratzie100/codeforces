@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 115 | 20 |
+| 116 | 20 |
 
 ---
 
@@ -16,12 +16,12 @@
 - [Uncategorized](#uncategorized) (14)
 - [binary search](#binary-search) (3)
 - [bitmasks](#bitmasks) (3)
-- [brute force](#brute-force) (22)
+- [brute force](#brute-force) (23)
 - [combinatorics](#combinatorics) (2)
 - [constructive algorithms](#constructive-algorithms) (11)
 - [data structures](#data-structures) (4)
 - [dfs and similar](#dfs-and-similar) (1)
-- [dp](#dp) (3)
+- [dp](#dp) (4)
 - [games](#games) (2)
 - [geometry](#geometry) (1)
 - [greedy](#greedy) (39)
@@ -83,6 +83,7 @@
 |---|---------|------------|----------|
 | 4A | [Арбуз](https://codeforces.com/contest/4/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/4/A%20-%20%D0%90%D1%80%D0%B1%D1%83%D0%B7/solution.cpp) |
 | 231A | [Команда](https://codeforces.com/contest/231/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/231/A%20-%20%D0%9A%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%B0/solution.cpp) |
+| 363B | [Забор](https://codeforces.com/contest/363/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/363/B%20-%20%D0%97%D0%B0%D0%B1%D0%BE%D1%80/solution.cpp) |
 | 479A | [Выражение](https://codeforces.com/contest/479/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/479/A%20-%20%D0%92%D1%8B%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5/solution.cpp) |
 | 580A | [Кефа и первые шаги](https://codeforces.com/contest/580/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/580/A%20-%20%D0%9A%D0%B5%D1%84%D0%B0%20%D0%B8%20%D0%BF%D0%B5%D1%80%D0%B2%D1%8B%D0%B5%20%D1%88%D0%B0%D0%B3%D0%B8/solution.cpp) |
 | 1380A | [Три индекса](https://codeforces.com/contest/1380/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1380/A%20-%20%D0%A2%D1%80%D0%B8%20%D0%B8%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%D0%B0/solution.cpp) |
@@ -146,6 +147,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 363B | [Забор](https://codeforces.com/contest/363/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/363/B%20-%20%D0%97%D0%B0%D0%B1%D0%BE%D1%80/solution.cpp) |
 | 580A | [Кефа и первые шаги](https://codeforces.com/contest/580/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/580/A%20-%20%D0%9A%D0%B5%D1%84%D0%B0%20%D0%B8%20%D0%BF%D0%B5%D1%80%D0%B2%D1%8B%D0%B5%20%D1%88%D0%B0%D0%B3%D0%B8/solution.cpp) |
 | 706B | [Интересный напиток](https://codeforces.com/contest/706/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/706/B%20-%20%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D0%BD%D1%8B%D0%B9%20%D0%BD%D0%B0%D0%BF%D0%B8%D1%82%D0%BE%D0%BA/solution.cpp) |
 | 1593B | [Делись на 25!](https://codeforces.com/contest/1593/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1593/B%20-%20%D0%94%D0%B5%D0%BB%D0%B8%D1%81%D1%8C%20%D0%BD%D0%B0%2025!/solution.cpp) |
