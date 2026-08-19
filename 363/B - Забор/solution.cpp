@@ -140,7 +140,7 @@ void solve()
  
     int l=0;
     int r=0;
-    ll s=0;
+    int s=0;
  
     int minh=INT_MAX;
     int minj=-2344;
