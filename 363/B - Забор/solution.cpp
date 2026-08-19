@@ -97,29 +97,68 @@ void solve()
  
  
  
+ 
+ 
+ 
+ 
+    // int l=0;
+    // int r=0;
+    // ll s=0;
+ 
+ 
+    // ll minh=LLONG_MAX;
+    // int minj=-2344;
+ 
+    // while(r<k){
+    //     s+=a[r];
+    //     r++;
+    // }
+    // minh=s;
+    // minj=0;
+    // while(r<n){
+    //     s-=a[l];
+    //     s+=a[r];
+    //     l++;
+    //     r++;
+    //     if(s<minh){
+    //         minj=l;
+    //         minh=s;
+    //     }
+    // }
+    // pln(minj+1);
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
     int l=0;
     int r=0;
     ll s=0;
  
- 
     ll minh=LLONG_MAX;
     int minj=-2344;
  
-    while(r<k){
-        s+=a[r];
-        r++;
-    }
-    minh=s;
-    minj=0;
     while(r<n){
-        s-=a[l];
+ 
         s+=a[r];
-        l++;
-        r++;
-        if(s<minh){
-            minj=l;
-            minh=s;
+ 
+        if(r >= k-1){
+            if(s<minh){
+                minh=s;
+                minj=l;
+            }
+            s-=a[l];
+            l++;
         }
+ 
+        r++;
     }
     pln(minj+1);
 }  
