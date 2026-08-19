@@ -74,28 +74,54 @@ void solve()
     vi a(n);
     read(a);
  
-    vll pref(n);     
-    pref[0]=a[0];
+    // vll pref(n);     
+    // pref[0]=a[0];
+    // f(i,1,n){
+    //     pref[i]=a[i]+pref[i-1];
+    // }
+    // debug(pref);
+    // int r=k-1;
+    // ll ansh=LLONG_MAX;
+    // int ansl=-12313;
+    // int l=0;
+    // f(i,0,n-k+1){
+    //     ll x=(i-1 <0) ? 0 : pref[i-1];
+    //     ll sw=  pref[r]- x;
+    //     if(sw< ansh){
+    //         ansl=i;
+    //         ansh=sw;
+    //     }
+    //     r++;
+    // }    
+    // pln(ansl + 1);  //1-indexed
  
-    f(i,1,n){
-        pref[i]=a[i]+pref[i-1];
-    }
  
  
-    int r=k-1;
-    ll ansh=LLONG_MAX;
-    int ansl=-12313;
     int l=0;
-    f(i,0,n-k+1){
-        ll x=(i-1 <0) ? 0 : pref[i-1];
-        ll sw=  pref[r]- x;
-        if(sw< ansh){
-            ansl=i;
-            ansh=sw;
-        }
+    int r=0;
+    ll s=0;
+ 
+ 
+    ll minh=LLONG_MAX;
+    int minj=-2344;
+ 
+    while(r<k){
+        s+=a[r];
         r++;
-    }    
-    pln(ansl + 1);  //1-indexed
+    }
+    minh=s;
+    minj=0;
+    while(r<n){
+        s-=a[l];
+        s+=a[r];
+        l++;
+        r++;
+        if(s<minh){
+            minj=l;
+            minh=s;
+        }
+    }
+    pln(minj+1);
 }  
  
  
