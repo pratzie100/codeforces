@@ -73,8 +73,8 @@ void solve()
     read(a);
  
  
-    unordered_map<ll,ll>m;
- 
+    // unordered_map<ll,ll>m;
+    unordered_map<int,ll>m;
     ll ans=0;
  
  
