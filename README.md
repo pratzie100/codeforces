@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 117 | 20 |
+| 118 | 20 |
 
 ---
 
@@ -24,12 +24,12 @@
 - [dp](#dp) (4)
 - [games](#games) (2)
 - [geometry](#geometry) (1)
-- [greedy](#greedy) (39)
+- [greedy](#greedy) (40)
 - [hashing](#hashing) (2)
 - [implementation](#implementation) (35)
 - [math](#math) (46)
 - [number theory](#number-theory) (13)
-- [sortings](#sortings) (10)
+- [sortings](#sortings) (11)
 - [strings](#strings) (14)
 - [two pointers](#two-pointers) (1)
 
@@ -170,6 +170,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 34B | [Распродажа](https://codeforces.com/contest/34/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/34/B%20-%20%D0%A0%D0%B0%D1%81%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B0/solution.cpp) |
 | 50A | [Укладка доминошками](https://codeforces.com/contest/50/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/50/A%20-%20%D0%A3%D0%BA%D0%BB%D0%B0%D0%B4%D0%BA%D0%B0%20%D0%B4%D0%BE%D0%BC%D0%B8%D0%BD%D0%BE%D1%88%D0%BA%D0%B0%D0%BC%D0%B8/solution.cpp) |
 | 58A | [Чат](https://codeforces.com/contest/58/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/58/A%20-%20%D0%A7%D0%B0%D1%82/solution.cpp) |
 | 158B | [Такси](https://codeforces.com/contest/158/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/158/B%20-%20%D0%A2%D0%B0%D0%BA%D1%81%D0%B8/solution.cpp) |
@@ -330,6 +331,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 34B | [Распродажа](https://codeforces.com/contest/34/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/34/B%20-%20%D0%A0%D0%B0%D1%81%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B0/solution.cpp) |
 | 160A | [Близнецы](https://codeforces.com/contest/160/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/160/A%20-%20%D0%91%D0%BB%D0%B8%D0%B7%D0%BD%D0%B5%D1%86%D1%8B/solution.cpp) |
 | 230A | [Драконы](https://codeforces.com/contest/230/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/230/A%20-%20%D0%94%D1%80%D0%B0%D0%BA%D0%BE%D0%BD%D1%8B/solution.cpp) |
 | 405A | [Переключение гравитации](https://codeforces.com/contest/405/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/405/A%20-%20%D0%9F%D0%B5%D1%80%D0%B5%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B3%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D0%B0%D1%86%D0%B8%D0%B8/solution.cpp) |
