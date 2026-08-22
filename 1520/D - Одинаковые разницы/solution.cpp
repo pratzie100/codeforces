@@ -66,14 +66,17 @@ using vc = vector<char>;
 using vi = vector<int>; 
 //-------------------------///*@CodingBoy100*/------------------------/
  
+ 
 void solve()
 {      
     ri(n);
     vi a(n);
     read(a);
- 
- 
-    // unordered_map<ll,ll>m;
+    //a[j]-j=a[i]-i     A[j]=A[i] countpair i<j
+    
+    //for equality fenwick bad
+    
+    //unordered_map<ll,ll>m; 
     unordered_map<int,ll>m;
     ll ans=0;
  
@@ -87,6 +90,8 @@ void solve()
     }
  
     pln(ans);
+ 
+ 
  
 }  
  
