@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 121 | 20 |
+| 122 | 20 |
 
 ---
 
@@ -16,7 +16,7 @@
 - [Uncategorized](#uncategorized) (14)
 - [binary search](#binary-search) (4)
 - [bitmasks](#bitmasks) (3)
-- [brute force](#brute-force) (23)
+- [brute force](#brute-force) (24)
 - [combinatorics](#combinatorics) (2)
 - [constructive algorithms](#constructive-algorithms) (11)
 - [data structures](#data-structures) (5)
@@ -24,12 +24,12 @@
 - [dp](#dp) (4)
 - [games](#games) (2)
 - [geometry](#geometry) (1)
-- [greedy](#greedy) (41)
+- [greedy](#greedy) (42)
 - [hashing](#hashing) (2)
-- [implementation](#implementation) (37)
+- [implementation](#implementation) (38)
 - [math](#math) (46)
 - [number theory](#number-theory) (14)
-- [sortings](#sortings) (11)
+- [sortings](#sortings) (12)
 - [strings](#strings) (15)
 - [two pointers](#two-pointers) (1)
 
@@ -95,6 +95,7 @@
 | 1789A | [Serval и массив Mocha](https://codeforces.com/contest/1789/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1789/A%20-%20Serval%20%D0%B8%20%D0%BC%D0%B0%D1%81%D1%81%D0%B8%D0%B2%20Mocha/solution.cpp) |
 | 1791D | [Непересекающееся разделение](https://codeforces.com/contest/1791/problem/D) | 1000 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1791/D%20-%20%D0%9D%D0%B5%D0%BF%D0%B5%D1%80%D0%B5%D1%81%D0%B5%D0%BA%D0%B0%D1%8E%D1%89%D0%B5%D0%B5%D1%81%D1%8F%20%D1%80%D0%B0%D0%B7%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5/solution.cpp) |
 | 1805A | [Нам нужен ноль](https://codeforces.com/contest/1805/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1805/A%20-%20%D0%9D%D0%B0%D0%BC%20%D0%BD%D1%83%D0%B6%D0%B5%D0%BD%20%D0%BD%D0%BE%D0%BB%D1%8C/solution.cpp) |
+| 1850D | [Сбалансированный раунд](https://codeforces.com/contest/1850/problem/D) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1850/D%20-%20%D0%A1%D0%B1%D0%B0%D0%BB%D0%B0%D0%BD%D1%81%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9%20%D1%80%D0%B0%D1%83%D0%BD%D0%B4/solution.cpp) |
 | 1853A | [Рассортировка](https://codeforces.com/contest/1853/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1853/A%20-%20%D0%A0%D0%B0%D1%81%D1%81%D0%BE%D1%80%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B0/solution.cpp) |
 | 1855B | [Наибольший интервал делителей](https://codeforces.com/contest/1855/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1855/B%20-%20%D0%9D%D0%B0%D0%B8%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%B8%D0%B9%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B2%D0%B0%D0%BB%20%D0%B4%D0%B5%D0%BB%D0%B8%D1%82%D0%B5%D0%BB%D0%B5%D0%B9/solution.cpp) |
 | 1881A | [Не пытайтесь посчитать](https://codeforces.com/contest/1881/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1881/A%20-%20%D0%9D%D0%B5%20%D0%BF%D1%8B%D1%82%D0%B0%D0%B9%D1%82%D0%B5%D1%81%D1%8C%20%D0%BF%D0%BE%D1%81%D1%87%D0%B8%D1%82%D0%B0%D1%82%D1%8C/solution.cpp) |
@@ -195,6 +196,7 @@
 | 1806A | [Мастер перемещений](https://codeforces.com/contest/1806/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1806/A%20-%20%D0%9C%D0%B0%D1%81%D1%82%D0%B5%D1%80%20%D0%BF%D0%B5%D1%80%D0%B5%D0%BC%D0%B5%D1%89%D0%B5%D0%BD%D0%B8%D0%B9/solution.cpp) |
 | 1834A | [Единичный массив](https://codeforces.com/contest/1834/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1834/A%20-%20%D0%95%D0%B4%D0%B8%D0%BD%D0%B8%D1%87%D0%BD%D1%8B%D0%B9%20%D0%BC%D0%B0%D1%81%D1%81%D0%B8%D0%B2/solution.cpp) |
 | 1837B | [Строка сравнений](https://codeforces.com/contest/1837/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1837/B%20-%20%D0%A1%D1%82%D1%80%D0%BE%D0%BA%D0%B0%20%D1%81%D1%80%D0%B0%D0%B2%D0%BD%D0%B5%D0%BD%D0%B8%D0%B9/solution.cpp) |
+| 1850D | [Сбалансированный раунд](https://codeforces.com/contest/1850/problem/D) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1850/D%20-%20%D0%A1%D0%B1%D0%B0%D0%BB%D0%B0%D0%BD%D1%81%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9%20%D1%80%D0%B0%D1%83%D0%BD%D0%B4/solution.cpp) |
 | 1853A | [Рассортировка](https://codeforces.com/contest/1853/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1853/A%20-%20%D0%A0%D0%B0%D1%81%D1%81%D0%BE%D1%80%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B0/solution.cpp) |
 | 1855B | [Наибольший интервал делителей](https://codeforces.com/contest/1855/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1855/B%20-%20%D0%9D%D0%B0%D0%B8%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%B8%D0%B9%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B2%D0%B0%D0%BB%20%D0%B4%D0%B5%D0%BB%D0%B8%D1%82%D0%B5%D0%BB%D0%B5%D0%B9/solution.cpp) |
 | 1857A | [Раскраска массива](https://codeforces.com/contest/1857/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1857/A%20-%20%D0%A0%D0%B0%D1%81%D0%BA%D1%80%D0%B0%D1%81%D0%BA%D0%B0%20%D0%BC%D0%B0%D1%81%D1%81%D0%B8%D0%B2%D0%B0/solution.cpp) |
@@ -255,6 +257,7 @@
 | 1829B | [Пробел](https://codeforces.com/contest/1829/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1829/B%20-%20%D0%9F%D1%80%D0%BE%D0%B1%D0%B5%D0%BB/solution.cpp) |
 | 1845A | [Запрещенное число](https://codeforces.com/contest/1845/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1845/A%20-%20%D0%97%D0%B0%D0%BF%D1%80%D0%B5%D1%89%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5%20%D1%87%D0%B8%D1%81%D0%BB%D0%BE/solution.cpp) |
 | 1850A | [To My Critics](https://codeforces.com/contest/1850/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1850/A%20-%20To%20My%20Critics/solution.cpp) |
+| 1850D | [Сбалансированный раунд](https://codeforces.com/contest/1850/problem/D) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1850/D%20-%20%D0%A1%D0%B1%D0%B0%D0%BB%D0%B0%D0%BD%D1%81%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9%20%D1%80%D0%B0%D1%83%D0%BD%D0%B4/solution.cpp) |
 | 1873C | [Стрельба по мишени](https://codeforces.com/contest/1873/problem/C) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1873/C%20-%20%D0%A1%D1%82%D1%80%D0%B5%D0%BB%D1%8C%D0%B1%D0%B0%20%D0%BF%D0%BE%20%D0%BC%D0%B8%D1%88%D0%B5%D0%BD%D0%B8/solution.cpp) |
 | 1900A | [Заполните водой](https://codeforces.com/contest/1900/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1900/A%20-%20%D0%97%D0%B0%D0%BF%D0%BE%D0%BB%D0%BD%D0%B8%D1%82%D0%B5%20%D0%B2%D0%BE%D0%B4%D0%BE%D0%B9/solution.cpp) |
 | 1915B | [Не совсем латинский квадрат](https://codeforces.com/contest/1915/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1915/B%20-%20%D0%9D%D0%B5%20%D1%81%D0%BE%D0%B2%D1%81%D0%B5%D0%BC%20%D0%BB%D0%B0%D1%82%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82/solution.cpp) |
@@ -343,6 +346,7 @@
 | 492B | [Ваня и фонари](https://codeforces.com/contest/492/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/492/B%20-%20%D0%92%D0%B0%D0%BD%D1%8F%20%D0%B8%20%D1%84%D0%BE%D0%BD%D0%B0%D1%80%D0%B8/solution.cpp) |
 | 1783A | [Сделай массив красивым](https://codeforces.com/contest/1783/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1783/A%20-%20%D0%A1%D0%B4%D0%B5%D0%BB%D0%B0%D0%B9%20%D0%BC%D0%B0%D1%81%D1%81%D0%B8%D0%B2%20%D0%BA%D1%80%D0%B0%D1%81%D0%B8%D0%B2%D1%8B%D0%BC/solution.cpp) |
 | 1850A | [To My Critics](https://codeforces.com/contest/1850/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1850/A%20-%20To%20My%20Critics/solution.cpp) |
+| 1850D | [Сбалансированный раунд](https://codeforces.com/contest/1850/problem/D) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1850/D%20-%20%D0%A1%D0%B1%D0%B0%D0%BB%D0%B0%D0%BD%D1%81%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9%20%D1%80%D0%B0%D1%83%D0%BD%D0%B4/solution.cpp) |
 | 1896A | [Пиковые обмены](https://codeforces.com/contest/1896/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1896/A%20-%20%D0%9F%D0%B8%D0%BA%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BE%D0%B1%D0%BC%D0%B5%D0%BD%D1%8B/solution.cpp) |
 | 1903A | [Коробки халлуми](https://codeforces.com/contest/1903/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1903/A%20-%20%D0%9A%D0%BE%D1%80%D0%BE%D0%B1%D0%BA%D0%B8%20%D1%85%D0%B0%D0%BB%D0%BB%D1%83%D0%BC%D0%B8/solution.cpp) |
 | 2234A | [Евклид, последовательность, два числа](https://codeforces.com/contest/2234/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/2234/A%20-%20%D0%95%D0%B2%D0%BA%D0%BB%D0%B8%D0%B4%2C%20%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C%2C%20%D0%B4%D0%B2%D0%B0%20%D1%87%D0%B8%D1%81%D0%BB%D0%B0/solution.cpp) |
