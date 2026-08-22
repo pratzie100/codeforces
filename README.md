@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 116 | 20 |
+| 117 | 20 |
 
 ---
 
@@ -19,15 +19,15 @@
 - [brute force](#brute-force) (23)
 - [combinatorics](#combinatorics) (2)
 - [constructive algorithms](#constructive-algorithms) (11)
-- [data structures](#data-structures) (4)
+- [data structures](#data-structures) (5)
 - [dfs and similar](#dfs-and-similar) (1)
 - [dp](#dp) (4)
 - [games](#games) (2)
 - [geometry](#geometry) (1)
 - [greedy](#greedy) (39)
-- [hashing](#hashing) (1)
+- [hashing](#hashing) (2)
 - [implementation](#implementation) (35)
-- [math](#math) (45)
+- [math](#math) (46)
 - [number theory](#number-theory) (13)
 - [sortings](#sortings) (10)
 - [strings](#strings) (14)
@@ -133,6 +133,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1380A | [Три индекса](https://codeforces.com/contest/1380/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1380/A%20-%20%D0%A2%D1%80%D0%B8%20%D0%B8%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%D0%B0/solution.cpp) |
+| 1520D | [Одинаковые разницы](https://codeforces.com/contest/1520/problem/D) | 1200 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1520/D%20-%20%D0%9E%D0%B4%D0%B8%D0%BD%D0%B0%D0%BA%D0%BE%D0%B2%D1%8B%D0%B5%20%D1%80%D0%B0%D0%B7%D0%BD%D0%B8%D1%86%D1%8B/solution.cpp) |
 | 1800D | [Удали два символа](https://codeforces.com/contest/1800/problem/D) | 1200 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1800/D%20-%20%D0%A3%D0%B4%D0%B0%D0%BB%D0%B8%20%D0%B4%D0%B2%D0%B0%20%D1%81%D0%B8%D0%BC%D0%B2%D0%BE%D0%BB%D0%B0/solution.cpp) |
 | 1807D | [Нечётные запросы](https://codeforces.com/contest/1807/problem/D) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1807/D%20-%20%D0%9D%D0%B5%D1%87%D1%91%D1%82%D0%BD%D1%8B%D0%B5%20%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%D1%8B/solution.cpp) |
 | 2252A | [Финальная битва](https://codeforces.com/contest/2252/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/2252/A%20-%20%D0%A4%D0%B8%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F%20%D0%B1%D0%B8%D1%82%D0%B2%D0%B0/solution.cpp) |
@@ -213,6 +214,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1520D | [Одинаковые разницы](https://codeforces.com/contest/1520/problem/D) | 1200 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1520/D%20-%20%D0%9E%D0%B4%D0%B8%D0%BD%D0%B0%D0%BA%D0%BE%D0%B2%D1%8B%D0%B5%20%D1%80%D0%B0%D0%B7%D0%BD%D0%B8%D1%86%D1%8B/solution.cpp) |
 | 1800D | [Удали два символа](https://codeforces.com/contest/1800/problem/D) | 1200 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1800/D%20-%20%D0%A3%D0%B4%D0%B0%D0%BB%D0%B8%20%D0%B4%D0%B2%D0%B0%20%D1%81%D0%B8%D0%BC%D0%B2%D0%BE%D0%BB%D0%B0/solution.cpp) |
 
 ### implementation
@@ -270,6 +272,7 @@
 | 1440B | [Сумма медиан](https://codeforces.com/contest/1440/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1440/B%20-%20%D0%A1%D1%83%D0%BC%D0%BC%D0%B0%20%D0%BC%D0%B5%D0%B4%D0%B8%D0%B0%D0%BD/solution.cpp) |
 | 1471A | [Странный массив](https://codeforces.com/contest/1471/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1471/A%20-%20%D0%A1%D1%82%D1%80%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9%20%D0%BC%D0%B0%D1%81%D1%81%D0%B8%D0%B2/solution.cpp) |
 | 1475A | [Нечетный делитель](https://codeforces.com/contest/1475/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1475/A%20-%20%D0%9D%D0%B5%D1%87%D0%B5%D1%82%D0%BD%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BB%D0%B8%D1%82%D0%B5%D0%BB%D1%8C/solution.cpp) |
+| 1520D | [Одинаковые разницы](https://codeforces.com/contest/1520/problem/D) | 1200 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1520/D%20-%20%D0%9E%D0%B4%D0%B8%D0%BD%D0%B0%D0%BA%D0%BE%D0%B2%D1%8B%D0%B5%20%D1%80%D0%B0%D0%B7%D0%BD%D0%B8%D1%86%D1%8B/solution.cpp) |
 | 1582B | [Лунтик и подпоследовательности](https://codeforces.com/contest/1582/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1582/B%20-%20%D0%9B%D1%83%D0%BD%D1%82%D0%B8%D0%BA%20%D0%B8%20%D0%BF%D0%BE%D0%B4%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8/solution.cpp) |
 | 1593B | [Делись на 25!](https://codeforces.com/contest/1593/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1593/B%20-%20%D0%94%D0%B5%D0%BB%D0%B8%D1%81%D1%8C%20%D0%BD%D0%B0%2025!/solution.cpp) |
 | 1679A | [AvtoBus](https://codeforces.com/contest/1679/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1679/A%20-%20AvtoBus/solution.cpp) |
