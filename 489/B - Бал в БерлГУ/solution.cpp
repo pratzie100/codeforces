@@ -1,3 +1,100 @@
+// //---------------------------------------------------------------//
+// /**  @CodingBoy100  ~  Pratyush Kargeti  **/
+// //---------------------------------------------------------------//
+// #include <bits/stdc++.h>
+// using namespace std;
+// using ll = long long;
+// //#define mod  1000000000000000007LL;  
+// // const ll mod2= 1000000000000000007LL;  
+// const ll INF = (1LL<<60);
+// const ll M= 1000000000000000007LL; 
+// const ll MOD = 1000000007LL;
+// const ll MOD2 = 998244353LL;
+// const int N = 100005;
+// #ifdef LOCAL
+// #include "debug.hpp"        
+// #else
+// #define debug(...) 19
+// #endif
+// // #include "pbds.hpp"
+// #include "template3cf.hpp"
+// //-------------------------///*@CodingBoy100*/------------------------/
+ 
+// void solve()
+// {      
+//     ri(n);
+//     vi a(n);
+//     read(a);
+//     ri(m);
+//     vi b(m);
+//     read(b);
+ 
+//     //sort(all(a)); sort(all(b));
+ 
+//     int c=0;
+ 
+    
+ 
+//     // f(i,0,t){
+//     //     int d= abs(a[i]-b[i]);
+//     //     if(d<=1) c++;
+//     // }
+ 
+//     int t= max(n,m);
+    
+//     vector<bool> vis(t);
+ 
+//     if(n>=m){
+ 
+//         f(i,0,n){
+//             f(j,0,m){
+ 
+//                 int d= abs(b[j]-a[i]);
+//                 debug(i,j,d);
+//                 if(!vis[j] && d<=1) {
+//                     c++;
+//                     debug(c,i,j,d);
+//                     vis[j]=1;
+//                     break;
+//                 }
+//             }
+//         }
+ 
+//     }
+//     else{
+//         f(i,0,m){
+//             f(j,0,n){
+ 
+//                 int d= abs(b[i]-a[j]);
+//                 if(!vis[j] && d<=1) {
+//                     c++;
+//                     vis[j]=1;
+//                     break;
+//                 }
+//             }
+//         }
+ 
+//     }
+//     pln(c);
+// }  
+ 
+ 
+// int main() {
+//     ios::sync_with_stdio(false);
+//     cin.tie(0);
+ 
+//     //tc{TESTCASE++; debug(TESTCASE); solve();}
+ 
+//     solve();
+    
+//     ///*@CodingBoy100*/
+//    return 0;    
+// }
+ 
+ 
+ 
+ 
+ 
 //---------------------------------------------------------------//
 /**  @CodingBoy100  ~  Pratyush Kargeti  **/
 //---------------------------------------------------------------//
@@ -92,10 +189,10 @@ void solve()
  
     if(n>=m){
  
-        f(i,0,n){
-            f(j,0,m){
+        f(i,0,m){
+            f(j,0,n){
  
-                int d= abs(b[j]-a[i]);
+                int d= abs(b[i]-a[j]);
  
                 if(!vis[j] && d<=1) {
                     c++;
@@ -108,10 +205,10 @@ void solve()
  
     }
     else{
-        f(i,0,m){
-            f(j,0,n){
+        f(i,0,n){
+            f(j,0,m){
  
-                int d= abs(b[i]-a[j]);
+                int d= abs(a[i]-b[j]);
                 if(!vis[j] && d<=1) {
                     c++;
                     vis[j]=1;
