@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 125 | 22 |
+| 126 | 22 |
 
 ---
 
@@ -31,7 +31,7 @@
 - [implementation](#implementation) (39)
 - [math](#math) (47)
 - [number theory](#number-theory) (14)
-- [sortings](#sortings) (13)
+- [sortings](#sortings) (14)
 - [strings](#strings) (15)
 - [two pointers](#two-pointers) (2)
 
@@ -365,6 +365,7 @@
 | 160A | [Близнецы](https://codeforces.com/contest/160/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/160/A%20-%20%D0%91%D0%BB%D0%B8%D0%B7%D0%BD%D0%B5%D1%86%D1%8B/solution.cpp) |
 | 230A | [Драконы](https://codeforces.com/contest/230/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/230/A%20-%20%D0%94%D1%80%D0%B0%D0%BA%D0%BE%D0%BD%D1%8B/solution.cpp) |
 | 405A | [Переключение гравитации](https://codeforces.com/contest/405/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/405/A%20-%20%D0%9F%D0%B5%D1%80%D0%B5%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B3%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D0%B0%D1%86%D0%B8%D0%B8/solution.cpp) |
+| 456A | [Ноутбуки](https://codeforces.com/contest/456/problem/A) | 1100 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/456/A%20-%20%D0%9D%D0%BE%D1%83%D1%82%D0%B1%D1%83%D0%BA%D0%B8/solution.cpp) |
 | 489B | [Бал в БерлГУ](https://codeforces.com/contest/489/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/489/B%20-%20%D0%91%D0%B0%D0%BB%20%D0%B2%20%D0%91%D0%B5%D1%80%D0%BB%D0%93%D0%A3/solution.cpp) |
 | 492B | [Ваня и фонари](https://codeforces.com/contest/492/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/492/B%20-%20%D0%92%D0%B0%D0%BD%D1%8F%20%D0%B8%20%D1%84%D0%BE%D0%BD%D0%B0%D1%80%D0%B8/solution.cpp) |
 | 1783A | [Сделай массив красивым](https://codeforces.com/contest/1783/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1783/A%20-%20%D0%A1%D0%B4%D0%B5%D0%BB%D0%B0%D0%B9%20%D0%BC%D0%B0%D1%81%D1%81%D0%B8%D0%B2%20%D0%BA%D1%80%D0%B0%D1%81%D0%B8%D0%B2%D1%8B%D0%BC/solution.cpp) |
