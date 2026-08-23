@@ -173,21 +173,33 @@ void solve()
     read(b);
  
     sort(all(a)); sort(all(b));
+    /*
+ we need to sort both arrays....because, say if one number 
+ if 5 from array a, and if i use say element 4 from array b to pair it,  
+ this may not be optimal because, the number of 4's in b may be used for 
+ some other optimal pairing (say element 3 or 4 itself from a), i.e, there may be 
+case where maximum or much more number of 4's from b will be needed, but u utilised 
+it with less optimal 5..
+Sorting ensures that smaller numbers are paired first with the smallest 
+possible valid match, This preserves larger resources for larger numbers
+    */
+ 
+    // f(i,0,t){
+    //     int d= abs(a[i]-b[i]);
+    //     if(d<=1) c++;
+    // } //wrong
+ 
+ 
  
     int c=0;
  
     
  
-    // f(i,0,t){
-    //     int d= abs(a[i]-b[i]);
-    //     if(d<=1) c++;
-    // }
- 
     int t= max(n,m);
     
     vector<bool> vis(t);
  
-    if(n>=m){
+  // if(n>=m){
  
         f(i,0,m){
             f(j,0,n){
@@ -203,21 +215,22 @@ void solve()
             }
         }
  
-    }
-    else{
-        f(i,0,n){
-            f(j,0,m){
+    //}
+    // else{
+    //     f(i,0,n){
+    //         f(j,0,m){
  
-                int d= abs(a[i]-b[j]);
-                if(!vis[j] && d<=1) {
-                    c++;
-                    vis[j]=1;
-                    break;
-                }
-            }
-        }
+    //             int d= abs(a[i]-b[j]);
+    //             if(!vis[j] && d<=1) {
+    //                 c++;
+    //                 vis[j]=1;
+    //                 break;
+    //             }
+    //         }
+    //     }
  
-    }
+    // }
+        
     pln(c);
 }  
  
