@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 122 | 20 |
+| 123 | 21 |
 
 ---
 
@@ -20,13 +20,14 @@
 - [combinatorics](#combinatorics) (2)
 - [constructive algorithms](#constructive-algorithms) (11)
 - [data structures](#data-structures) (5)
-- [dfs and similar](#dfs-and-similar) (1)
+- [dfs and similar](#dfs-and-similar) (2)
 - [dp](#dp) (4)
 - [games](#games) (2)
 - [geometry](#geometry) (1)
+- [graphs](#graphs) (1)
 - [greedy](#greedy) (42)
 - [hashing](#hashing) (2)
-- [implementation](#implementation) (38)
+- [implementation](#implementation) (39)
 - [math](#math) (46)
 - [number theory](#number-theory) (14)
 - [sortings](#sortings) (12)
@@ -144,6 +145,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 500A | [Транспорт на Новый год](https://codeforces.com/contest/500/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/500/A%20-%20%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D0%BF%D0%BE%D1%80%D1%82%20%D0%BD%D0%B0%20%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%B3%D0%BE%D0%B4/solution.cpp) |
 | 1593B | [Делись на 25!](https://codeforces.com/contest/1593/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1593/B%20-%20%D0%94%D0%B5%D0%BB%D0%B8%D1%81%D1%8C%20%D0%BD%D0%B0%2025!/solution.cpp) |
 
 ### dp
@@ -167,6 +169,12 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1806A | [Мастер перемещений](https://codeforces.com/contest/1806/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1806/A%20-%20%D0%9C%D0%B0%D1%81%D1%82%D0%B5%D1%80%20%D0%BF%D0%B5%D1%80%D0%B5%D0%BC%D0%B5%D1%89%D0%B5%D0%BD%D0%B8%D0%B9/solution.cpp) |
+
+### graphs
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 500A | [Транспорт на Новый год](https://codeforces.com/contest/500/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/500/A%20-%20%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D0%BF%D0%BE%D1%80%D1%82%20%D0%BD%D0%B0%20%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%B3%D0%BE%D0%B4/solution.cpp) |
 
 ### greedy
 
@@ -242,6 +250,7 @@
 | 466A | [Выгодный проезд](https://codeforces.com/contest/466/problem/A) | 1200 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/466/A%20-%20%D0%92%D1%8B%D0%B3%D0%BE%D0%B4%D0%BD%D1%8B%D0%B9%20%D0%BF%D1%80%D0%BE%D0%B5%D0%B7%D0%B4/solution.cpp) |
 | 474B | [Черви](https://codeforces.com/contest/474/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/474/B%20-%20%D0%A7%D0%B5%D1%80%D0%B2%D0%B8/solution.cpp) |
 | 492B | [Ваня и фонари](https://codeforces.com/contest/492/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/492/B%20-%20%D0%92%D0%B0%D0%BD%D1%8F%20%D0%B8%20%D1%84%D0%BE%D0%BD%D0%B0%D1%80%D0%B8/solution.cpp) |
+| 500A | [Транспорт на Новый год](https://codeforces.com/contest/500/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/500/A%20-%20%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D0%BF%D0%BE%D1%80%D1%82%20%D0%BD%D0%B0%20%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%B3%D0%BE%D0%B4/solution.cpp) |
 | 514A | [Чубакка и число](https://codeforces.com/contest/514/problem/A) | 1200 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/514/A%20-%20%D0%A7%D1%83%D0%B1%D0%B0%D0%BA%D0%BA%D0%B0%20%D0%B8%20%D1%87%D0%B8%D1%81%D0%BB%D0%BE/solution.cpp) |
 | 520A | [Панграмма](https://codeforces.com/contest/520/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/520/A%20-%20%D0%9F%D0%B0%D0%BD%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0/solution.cpp) |
 | 580A | [Кефа и первые шаги](https://codeforces.com/contest/580/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/580/A%20-%20%D0%9A%D0%B5%D1%84%D0%B0%20%D0%B8%20%D0%BF%D0%B5%D1%80%D0%B2%D1%8B%D0%B5%20%D1%88%D0%B0%D0%B3%D0%B8/solution.cpp) |
