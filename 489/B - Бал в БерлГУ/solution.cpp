@@ -93,8 +93,6 @@
  
  
  
- 
- 
 //---------------------------------------------------------------//
 /**  @CodingBoy100  ~  Pratyush Kargeti  **/
 //---------------------------------------------------------------//
@@ -191,46 +189,97 @@ possible valid match, This preserves larger resources for larger numbers
  
  
  
-    int c=0;
+ 
  
     
- 
-    int t= max(n,m);
+    //approach 1  (nested loop)
+    // int c=0;
+    // int t= max(n,m);
     
-    vector<bool> vis(t);
+    // vector<bool> vis(t);
  
-  // if(n>=m){
  
-        f(i,0,m){
-            f(j,0,n){
+    //     f(i,0,m){ //i can be on a too
+    //         f(j,0,n){ // j can be on b too
  
-                int d= abs(b[i]-a[j]);
+    //             int d= abs(b[i]-a[j]);
  
-                if(!vis[j] && d<=1) {
-                    c++;
- 
-                    vis[j]=1;
-                    break;
-                }
-            }
-        }
- 
-    //}
-    // else{
-    //     f(i,0,n){
-    //         f(j,0,m){
- 
-    //             int d= abs(a[i]-b[j]);
     //             if(!vis[j] && d<=1) {
     //                 c++;
+ 
     //                 vis[j]=1;
     //                 break;
     //             }
     //         }
     //     }
  
-    // }
-        
+ 
+ 
+  
+    //approach 2  (since we have already sorted, two pointer optimze further)
+ 
+//tf attempt
+//     int t= min(n,m);
+ 
+//     int l=0,r=0;
+ 
+//     if(t==m){
+//     while(l<t){
+ 
+ 
+//         while(abs(b[l]-a[r]) > 1 ){
+//             int g=abs(b[l]-a[r]);
+ 
+//             l++;
+//             if(l==t) break;
+//         }   
+ 
+//         if(l==t) break;
+ 
+//         l++;
+//         r++;
+//         c++;
+ 
+//     }
+// }
+ 
+// else{
+//     while(l<t){
+ 
+ 
+//         while(abs(a[l]-b[r]) > 1 ){
+//             int g=abs(a[l]-b[r]);
+ 
+//             l++;
+//             if(l==t) break;
+//         }   
+ 
+//         if(l==t) break;
+ 
+//         l++;
+//         r++;
+//         c++;
+ 
+//     }
+// }
+    
+ 
+    int i=0, j=0,c=0;
+ 
+    while(i<n && j<m){ //run until one array fully traversed
+        if(abs(a[i]-b[j])<=1){
+            i++;
+            j++;
+            c++;
+        }
+        else if( a[i]< b[j]){
+            i++;
+        }
+        else{
+            j++;
+        }
+ 
+    }
     pln(c);
 }  
  
