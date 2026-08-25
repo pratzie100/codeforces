@@ -79,11 +79,11 @@ void solve()
         else co++;
     }
  
-    if(cz==co) {pln(0); return;}
-    if(cz==0 &&  co!=0) {pln(co); return;}
-    if(co==0 &&  cz!=0) {pln(cz); return;}
+    // if(cz==co) {pln(0); return;}
+    // if(cz==0 &&  co!=0) {pln(co); return;}
+    // if(co==0 &&  cz!=0) {pln(cz); return;}  
  
-    int m=0; // length of string p
+    int m=0; // length of final string p 
     f(i,0,n){
         if(s[i]=='0'){
             if(co>0){ co--;  m++;}
