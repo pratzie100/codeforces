@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 128 | 22 |
+| 129 | 22 |
 
 ---
 
@@ -21,17 +21,17 @@
 - [constructive algorithms](#constructive-algorithms) (11)
 - [data structures](#data-structures) (5)
 - [dfs and similar](#dfs-and-similar) (3)
-- [dp](#dp) (7)
+- [dp](#dp) (8)
 - [games](#games) (2)
 - [geometry](#geometry) (1)
 - [graph matchings](#graph-matchings) (1)
 - [graphs](#graphs) (1)
 - [greedy](#greedy) (43)
 - [hashing](#hashing) (2)
-- [implementation](#implementation) (41)
+- [implementation](#implementation) (42)
 - [math](#math) (47)
 - [number theory](#number-theory) (14)
-- [sortings](#sortings) (14)
+- [sortings](#sortings) (15)
 - [strings](#strings) (15)
 - [two pointers](#two-pointers) (2)
 
@@ -157,6 +157,7 @@
 |---|---------|------------|----------|
 | 313B | [Илья и запросы ](https://codeforces.com/contest/313/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/313/B%20-%20%D0%98%D0%BB%D1%8C%D1%8F%20%D0%B8%20%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%D1%8B%20/solution.cpp) |
 | 363B | [Забор](https://codeforces.com/contest/363/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/363/B%20-%20%D0%97%D0%B0%D0%B1%D0%BE%D1%80/solution.cpp) |
+| 433B | [Камни Курияма Мираи](https://codeforces.com/contest/433/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/433/B%20-%20%D0%9A%D0%B0%D0%BC%D0%BD%D0%B8%20%D0%9A%D1%83%D1%80%D0%B8%D1%8F%D0%BC%D0%B0%20%D0%9C%D0%B8%D1%80%D0%B0%D0%B8/solution.cpp) |
 | 489B | [Бал в БерлГУ](https://codeforces.com/contest/489/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/489/B%20-%20%D0%91%D0%B0%D0%BB%20%D0%B2%20%D0%91%D0%B5%D1%80%D0%BB%D0%93%D0%A3/solution.cpp) |
 | 580A | [Кефа и первые шаги](https://codeforces.com/contest/580/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/580/A%20-%20%D0%9A%D0%B5%D1%84%D0%B0%20%D0%B8%20%D0%BF%D0%B5%D1%80%D0%B2%D1%8B%D0%B5%20%D1%88%D0%B0%D0%B3%D0%B8/solution.cpp) |
 | 706B | [Интересный напиток](https://codeforces.com/contest/706/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/706/B%20-%20%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D0%BD%D1%8B%D0%B9%20%D0%BD%D0%B0%D0%BF%D0%B8%D1%82%D0%BE%D0%BA/solution.cpp) |
@@ -260,6 +261,7 @@
 | 313B | [Илья и запросы ](https://codeforces.com/contest/313/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/313/B%20-%20%D0%98%D0%BB%D1%8C%D1%8F%20%D0%B8%20%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%D1%8B%20/solution.cpp) |
 | 339B | [Ксюша и кольцевая дорога](https://codeforces.com/contest/339/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/339/B%20-%20%D0%9A%D1%81%D1%8E%D1%88%D0%B0%20%D0%B8%20%D0%BA%D0%BE%D0%BB%D1%8C%D1%86%D0%B5%D0%B2%D0%B0%D1%8F%20%D0%B4%D0%BE%D1%80%D0%BE%D0%B3%D0%B0/solution.cpp) |
 | 405A | [Переключение гравитации](https://codeforces.com/contest/405/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/405/A%20-%20%D0%9F%D0%B5%D1%80%D0%B5%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B3%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D0%B0%D1%86%D0%B8%D0%B8/solution.cpp) |
+| 433B | [Камни Курияма Мираи](https://codeforces.com/contest/433/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/433/B%20-%20%D0%9A%D0%B0%D0%BC%D0%BD%D0%B8%20%D0%9A%D1%83%D1%80%D0%B8%D1%8F%D0%BC%D0%B0%20%D0%9C%D0%B8%D1%80%D0%B0%D0%B8/solution.cpp) |
 | 451A | [Игра с палочками](https://codeforces.com/contest/451/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/451/A%20-%20%D0%98%D0%B3%D1%80%D0%B0%20%D1%81%20%D0%BF%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0%D0%BC%D0%B8/solution.cpp) |
 | 466A | [Выгодный проезд](https://codeforces.com/contest/466/problem/A) | 1200 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/466/A%20-%20%D0%92%D1%8B%D0%B3%D0%BE%D0%B4%D0%BD%D1%8B%D0%B9%20%D0%BF%D1%80%D0%BE%D0%B5%D0%B7%D0%B4/solution.cpp) |
 | 474A | [Клавиатура](https://codeforces.com/contest/474/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/474/A%20-%20%D0%9A%D0%BB%D0%B0%D0%B2%D0%B8%D0%B0%D1%82%D1%83%D1%80%D0%B0/solution.cpp) |
@@ -368,6 +370,7 @@
 | 160A | [Близнецы](https://codeforces.com/contest/160/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/160/A%20-%20%D0%91%D0%BB%D0%B8%D0%B7%D0%BD%D0%B5%D1%86%D1%8B/solution.cpp) |
 | 230A | [Драконы](https://codeforces.com/contest/230/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/230/A%20-%20%D0%94%D1%80%D0%B0%D0%BA%D0%BE%D0%BD%D1%8B/solution.cpp) |
 | 405A | [Переключение гравитации](https://codeforces.com/contest/405/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/405/A%20-%20%D0%9F%D0%B5%D1%80%D0%B5%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B3%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D0%B0%D1%86%D0%B8%D0%B8/solution.cpp) |
+| 433B | [Камни Курияма Мираи](https://codeforces.com/contest/433/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/433/B%20-%20%D0%9A%D0%B0%D0%BC%D0%BD%D0%B8%20%D0%9A%D1%83%D1%80%D0%B8%D1%8F%D0%BC%D0%B0%20%D0%9C%D0%B8%D1%80%D0%B0%D0%B8/solution.cpp) |
 | 456A | [Ноутбуки](https://codeforces.com/contest/456/problem/A) | 1100 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/456/A%20-%20%D0%9D%D0%BE%D1%83%D1%82%D0%B1%D1%83%D0%BA%D0%B8/solution.cpp) |
 | 489B | [Бал в БерлГУ](https://codeforces.com/contest/489/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/489/B%20-%20%D0%91%D0%B0%D0%BB%20%D0%B2%20%D0%91%D0%B5%D1%80%D0%BB%D0%93%D0%A3/solution.cpp) |
 | 492B | [Ваня и фонари](https://codeforces.com/contest/492/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/492/B%20-%20%D0%92%D0%B0%D0%BD%D1%8F%20%D0%B8%20%D1%84%D0%BE%D0%BD%D0%B0%D1%80%D0%B8/solution.cpp) |
