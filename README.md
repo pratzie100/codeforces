@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 132 | 22 |
+| 133 | 22 |
 
 ---
 
@@ -29,7 +29,7 @@
 - [greedy](#greedy) (43)
 - [hashing](#hashing) (2)
 - [implementation](#implementation) (43)
-- [math](#math) (49)
+- [math](#math) (50)
 - [number theory](#number-theory) (14)
 - [sortings](#sortings) (15)
 - [strings](#strings) (16)
@@ -335,6 +335,7 @@
 | 1873C | [Стрельба по мишени](https://codeforces.com/contest/1873/problem/C) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1873/C%20-%20%D0%A1%D1%82%D1%80%D0%B5%D0%BB%D1%8C%D0%B1%D0%B0%20%D0%BF%D0%BE%20%D0%BC%D0%B8%D1%88%D0%B5%D0%BD%D0%B8/solution.cpp) |
 | 1877A | [Голы победы](https://codeforces.com/contest/1877/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1877/A%20-%20%D0%93%D0%BE%D0%BB%D1%8B%20%D0%BF%D0%BE%D0%B1%D0%B5%D0%B4%D1%8B/solution.cpp) |
 | 1878C | [Василий в Чачаке](https://codeforces.com/contest/1878/problem/C) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1878/C%20-%20%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D0%B8%D0%B9%20%D0%B2%20%D0%A7%D0%B0%D1%87%D0%B0%D0%BA%D0%B5/solution.cpp) |
+| 1883A | [Утро](https://codeforces.com/contest/1883/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1883/A%20-%20%D0%A3%D1%82%D1%80%D0%BE/solution.cpp) |
 | 1883C | [Малинки](https://codeforces.com/contest/1883/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1883/C%20-%20%D0%9C%D0%B0%D0%BB%D0%B8%D0%BD%D0%BA%D0%B8/solution.cpp) |
 | 1899A | [Игра с числами](https://codeforces.com/contest/1899/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1899/A%20-%20%D0%98%D0%B3%D1%80%D0%B0%20%D1%81%20%D1%87%D0%B8%D1%81%D0%BB%D0%B0%D0%BC%D0%B8/solution.cpp) |
 | 1901A | [Поездка](https://codeforces.com/contest/1901/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1901/A%20-%20%D0%9F%D0%BE%D0%B5%D0%B7%D0%B4%D0%BA%D0%B0/solution.cpp) |
