@@ -71,6 +71,23 @@ void solve()
 {      
     ri(n);
  
+    // int num=n;
+    // int c=0;
+    // while(num){
+    //     num=num & (num-1);
+    //     c++;
+    // }
+    // ll  ans=0;
+    // while(c){
+    //     ans+= 1* pow(2,c-1);
+    //     c--;
+    // }
+    // pln(n/ans);  //wrong attempt
+ 
+ 
+ 
+ 
+ 
     // S=n=x*(2^k-1)
     f(k,2,30){
  
@@ -81,7 +98,6 @@ void solve()
             return;
         } 
     }
-    
 }  
  
  
