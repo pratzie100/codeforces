@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 137 | 22 |
+| 138 | 22 |
 
 ---
 
@@ -28,9 +28,9 @@
 - [graphs](#graphs) (1)
 - [greedy](#greedy) (43)
 - [hashing](#hashing) (2)
-- [implementation](#implementation) (43)
-- [math](#math) (53)
-- [number theory](#number-theory) (14)
+- [implementation](#implementation) (44)
+- [math](#math) (54)
+- [number theory](#number-theory) (15)
 - [sortings](#sortings) (15)
 - [strings](#strings) (16)
 - [two pointers](#two-pointers) (2)
@@ -277,6 +277,7 @@
 | 520A | [Панграмма](https://codeforces.com/contest/520/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/520/A%20-%20%D0%9F%D0%B0%D0%BD%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0/solution.cpp) |
 | 580A | [Кефа и первые шаги](https://codeforces.com/contest/580/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/580/A%20-%20%D0%9A%D0%B5%D1%84%D0%B0%20%D0%B8%20%D0%BF%D0%B5%D1%80%D0%B2%D1%8B%D0%B5%20%D1%88%D0%B0%D0%B3%D0%B8/solution.cpp) |
 | 706B | [Интересный напиток](https://codeforces.com/contest/706/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/706/B%20-%20%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D0%BD%D1%8B%D0%B9%20%D0%BD%D0%B0%D0%BF%D0%B8%D1%82%D0%BE%D0%BA/solution.cpp) |
+| 742A | [Сложный экзамен Arpa и наивный чит Mehrdad](https://codeforces.com/contest/742/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/742/A%20-%20%D0%A1%D0%BB%D0%BE%D0%B6%D0%BD%D1%8B%D0%B9%20%D1%8D%D0%BA%D0%B7%D0%B0%D0%BC%D0%B5%D0%BD%20Arpa%20%D0%B8%20%D0%BD%D0%B0%D0%B8%D0%B2%D0%BD%D1%8B%D0%B9%20%D1%87%D0%B8%D1%82%20Mehrdad/solution.cpp) |
 | 1624B | [Сделай АП](https://codeforces.com/contest/1624/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1624/B%20-%20%D0%A1%D0%B4%D0%B5%D0%BB%D0%B0%D0%B9%20%D0%90%D0%9F/solution.cpp) |
 | 1675B | [Сделай возрастающую](https://codeforces.com/contest/1675/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1675/B%20-%20%D0%A1%D0%B4%D0%B5%D0%BB%D0%B0%D0%B9%20%D0%B2%D0%BE%D0%B7%D1%80%D0%B0%D1%81%D1%82%D0%B0%D1%8E%D1%89%D1%83%D1%8E/solution.cpp) |
 | 1722A | [Проверка правописания](https://codeforces.com/contest/1722/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1722/A%20-%20%D0%9F%D1%80%D0%BE%D0%B2%D0%B5%D1%80%D0%BA%D0%B0%20%D0%BF%D1%80%D0%B0%D0%B2%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D1%8F/solution.cpp) |
@@ -308,6 +309,7 @@
 | 479A | [Выражение](https://codeforces.com/contest/479/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/479/A%20-%20%D0%92%D1%8B%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5/solution.cpp) |
 | 492B | [Ваня и фонари](https://codeforces.com/contest/492/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/492/B%20-%20%D0%92%D0%B0%D0%BD%D1%8F%20%D0%B8%20%D1%84%D0%BE%D0%BD%D0%B0%D1%80%D0%B8/solution.cpp) |
 | 584A | [Олеся и Родион](https://codeforces.com/contest/584/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/584/A%20-%20%D0%9E%D0%BB%D0%B5%D1%81%D1%8F%20%D0%B8%20%D0%A0%D0%BE%D0%B4%D0%B8%D0%BE%D0%BD/solution.cpp) |
+| 742A | [Сложный экзамен Arpa и наивный чит Mehrdad](https://codeforces.com/contest/742/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/742/A%20-%20%D0%A1%D0%BB%D0%BE%D0%B6%D0%BD%D1%8B%D0%B9%20%D1%8D%D0%BA%D0%B7%D0%B0%D0%BC%D0%B5%D0%BD%20Arpa%20%D0%B8%20%D0%BD%D0%B0%D0%B8%D0%B2%D0%BD%D1%8B%D0%B9%20%D1%87%D0%B8%D1%82%20Mehrdad/solution.cpp) |
 | 1343A | [Конфеты](https://codeforces.com/contest/1343/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1343/A%20-%20%D0%9A%D0%BE%D0%BD%D1%84%D0%B5%D1%82%D1%8B/solution.cpp) |
 | 1352C | [K-е неделящееся на n](https://codeforces.com/contest/1352/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1352/C%20-%20K-%D0%B5%20%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F%D1%89%D0%B5%D0%B5%D1%81%D1%8F%20%D0%BD%D0%B0%20n/solution.cpp) |
 | 1374B | [Умножай на 2, дели на 6](https://codeforces.com/contest/1374/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1374/B%20-%20%D0%A3%D0%BC%D0%BD%D0%BE%D0%B6%D0%B0%D0%B9%20%D0%BD%D0%B0%202%2C%20%D0%B4%D0%B5%D0%BB%D0%B8%20%D0%BD%D0%B0%206/solution.cpp) |
@@ -360,6 +362,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 313A | [Илья и банковский счет](https://codeforces.com/contest/313/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/313/A%20-%20%D0%98%D0%BB%D1%8C%D1%8F%20%D0%B8%20%D0%B1%D0%B0%D0%BD%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9%20%D1%81%D1%87%D0%B5%D1%82/solution.cpp) |
+| 742A | [Сложный экзамен Arpa и наивный чит Mehrdad](https://codeforces.com/contest/742/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/742/A%20-%20%D0%A1%D0%BB%D0%BE%D0%B6%D0%BD%D1%8B%D0%B9%20%D1%8D%D0%BA%D0%B7%D0%B0%D0%BC%D0%B5%D0%BD%20Arpa%20%D0%B8%20%D0%BD%D0%B0%D0%B8%D0%B2%D0%BD%D1%8B%D0%B9%20%D1%87%D0%B8%D1%82%20Mehrdad/solution.cpp) |
 | 1471A | [Странный массив](https://codeforces.com/contest/1471/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1471/A%20-%20%D0%A1%D1%82%D1%80%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9%20%D0%BC%D0%B0%D1%81%D1%81%D0%B8%D0%B2/solution.cpp) |
 | 1475A | [Нечетный делитель](https://codeforces.com/contest/1475/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1475/A%20-%20%D0%9D%D0%B5%D1%87%D0%B5%D1%82%D0%BD%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BB%D0%B8%D1%82%D0%B5%D0%BB%D1%8C/solution.cpp) |
 | 1679A | [AvtoBus](https://codeforces.com/contest/1679/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1679/A%20-%20AvtoBus/solution.cpp) |
