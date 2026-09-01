@@ -1,0 +1,17 @@
+<h2><a href="https://codeforces.com/contest/742/problem/A" target="_blank" rel="noopener noreferrer">742A — Сложный экзамен Arpa и наивный чит Mehrdad</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 1000 |
+| **Language** | C++17 (GCC 7-32) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 742A](https://codeforces.com/contest/742/problem/A) |
+
+## Topics
+`implementation` `math` `number theory`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">A. Arpa’s hard exam and Mehrdad’s naive cheat</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p><span class="tex-font-style-it">There exists an island called Arpa’s land, some beautiful girls live there, as ugly ones do.</span></p><p>Mehrdad wants to become minister of Arpa’s land. Arpa has prepared an exam. Exam has only one question, given <span class="tex-span"><i>n</i></span>, print the last digit of <span class="tex-span">1378<sup class="upper-index"><i>n</i></sup></span>. </p><center> <img class="tex-graphics" height="222px" src="https://espresso.codeforces.com/ac805c7c78540a009fed5a8407fb3448d2a085a6.png" style="max-width: 100.0%;max-height: 100.0%;" width="445px"> </center><p>Mehrdad has become quite confused and wants you to help him. Please help, although it's a naive cheat.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The single line of input contains one integer <span class="tex-span"><i>n</i></span> (<span class="tex-span">0  ≤  <i>n</i>  ≤  10<sup class="upper-index">9</sup></span>).</p></div><div class="output-specification"><div class="section-title">Output</div><p>Print single integer — the last digit of <span class="tex-span">1378<sup class="upper-index"><i>n</i></sup></span>.</p></div><div class="sample-tests"><div class="section-title">Examples</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id0042736759267286295" id="id001434991636863685" class="input-output-copier">Copy</div></div><pre id="id0042736759267286295">1<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id0042345973251119784" id="id00012306925528445256" class="input-output-copier">Copy</div></div><pre id="id0042345973251119784">8</pre></div><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id002964767076004501" id="id0018400971934401322" class="input-output-copier">Copy</div></div><pre id="id002964767076004501">2<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id005030352331978306" id="id00914277536058959" class="input-output-copier">Copy</div></div><pre id="id005030352331978306">4</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first example, last digit of <span class="tex-span">1378<sup class="upper-index">1</sup> = 1378</span> is <span class="tex-span">8</span>.</p><p>In the second example, last digit of <span class="tex-span">1378<sup class="upper-index">2</sup> = 1378·1378 = 1898884</span> is <span class="tex-span">4</span>.</p></div>
