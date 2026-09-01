@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 136 | 22 |
+| 137 | 22 |
 
 ---
 
@@ -29,7 +29,7 @@
 - [greedy](#greedy) (43)
 - [hashing](#hashing) (2)
 - [implementation](#implementation) (43)
-- [math](#math) (52)
+- [math](#math) (53)
 - [number theory](#number-theory) (14)
 - [sortings](#sortings) (15)
 - [strings](#strings) (16)
@@ -307,6 +307,7 @@
 | 318A | [Чет и нечет](https://codeforces.com/contest/318/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/318/A%20-%20%D0%A7%D0%B5%D1%82%20%D0%B8%20%D0%BD%D0%B5%D1%87%D0%B5%D1%82/solution.cpp) |
 | 479A | [Выражение](https://codeforces.com/contest/479/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/479/A%20-%20%D0%92%D1%8B%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5/solution.cpp) |
 | 492B | [Ваня и фонари](https://codeforces.com/contest/492/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/492/B%20-%20%D0%92%D0%B0%D0%BD%D1%8F%20%D0%B8%20%D1%84%D0%BE%D0%BD%D0%B0%D1%80%D0%B8/solution.cpp) |
+| 584A | [Олеся и Родион](https://codeforces.com/contest/584/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/584/A%20-%20%D0%9E%D0%BB%D0%B5%D1%81%D1%8F%20%D0%B8%20%D0%A0%D0%BE%D0%B4%D0%B8%D0%BE%D0%BD/solution.cpp) |
 | 1343A | [Конфеты](https://codeforces.com/contest/1343/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1343/A%20-%20%D0%9A%D0%BE%D0%BD%D1%84%D0%B5%D1%82%D1%8B/solution.cpp) |
 | 1352C | [K-е неделящееся на n](https://codeforces.com/contest/1352/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1352/C%20-%20K-%D0%B5%20%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F%D1%89%D0%B5%D0%B5%D1%81%D1%8F%20%D0%BD%D0%B0%20n/solution.cpp) |
 | 1374B | [Умножай на 2, дели на 6](https://codeforces.com/contest/1374/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1374/B%20-%20%D0%A3%D0%BC%D0%BD%D0%BE%D0%B6%D0%B0%D0%B9%20%D0%BD%D0%B0%202%2C%20%D0%B4%D0%B5%D0%BB%D0%B8%20%D0%BD%D0%B0%206/solution.cpp) |
