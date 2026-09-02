@@ -74,24 +74,15 @@ void solve()
  
     if(n<m) {pln(n); return;}
  
-    //pln( (n/m)*m  +   )
-    
- 
-   //  int ans=0;
- 
+   //  int ans=0;   //wrong approach (coz of given tc)
    //  while(n>=m){
- 
-   //      ans+= n;
+   //      ans+= n;   
    //      debug(ans);
    //      n=n/m + (n%m);
    //      debug(n);
- 
    //  }
- 
    //  if( (ans+n) % m == 0)  pln(ans+n+1); //if still land up on mutiple of m
    //  else pln(ans+n);
- 
- 
    // // pln(ans+n);
  
  
@@ -99,7 +90,7 @@ void solve()
  
     while(n>=m){
  
-        ans+= m;
+        ans+= m; 
         
         n=(n-m)+1;
     
@@ -107,8 +98,6 @@ void solve()
  
     pln(ans+n);
  
- 
-   // pln(ans+n);
 }  
  
  
