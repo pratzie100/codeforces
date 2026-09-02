@@ -56,6 +56,9 @@ template<typename Container> void out(const Container& c){for(const auto &x : c)
 ';}
 template<typename T>  void out(const vv<T>& v){ for(const auto &row:v)  out(row);}
 template<typename T> void uniq(vector<T>& v){sort(all(v)); v.erase(unique(all(v)),v.end());}
+#define Start auto start=chrono::high_resolution_clock::now();
+#define End auto stop=chrono::high_resolution_clock::now(); auto duration=chrono::duration_cast<chrono::nanoseconds>(stop-start); cerr<<"Time taken (local): "<<(long double)duration.count()/1e6<<" ms
+";
 #define f(i,a,b) for(int i=(a); i<(b); i++)
 #define fr(i,a,b) for(int i=(a); i>=(b); i--)
 #define fx(i,a,b,x) for(int i=(a); i<(b); i+=(x))
@@ -102,13 +105,15 @@ void solve()
  
  
 int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(0);
+    ios::sync_with_stdio(false); 
+    cin.tie(0); Start;
  
     //tc{TESTCASE++; debug(TESTCASE); solve();}
     solve();
     
-    ///*@CodingBoy100*/
-   return 0;    
+ 
+    End; 
+    //*@CodingBoy100*/ 
+    return 0;   
 }
  
