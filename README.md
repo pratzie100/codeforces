@@ -6,14 +6,14 @@
 
 | Total Problems | Topics |
 |---|---|
-| 142 | 22 |
+| 143 | 22 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [*special](#special) (2)
-- [Uncategorized](#uncategorized) (17)
+- [Uncategorized](#uncategorized) (18)
 - [binary search](#binary-search) (4)
 - [bitmasks](#bitmasks) (3)
 - [brute force](#brute-force) (28)
@@ -64,6 +64,7 @@
 | 2256A | [Три числа на доске](https://codeforces.com/contest/2256/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/2256/A%20-%20%D0%A2%D1%80%D0%B8%20%D1%87%D0%B8%D1%81%D0%BB%D0%B0%20%D0%BD%D0%B0%20%D0%B4%D0%BE%D1%81%D0%BA%D0%B5/solution.cpp) |
 | 2258A | [Нечётный ластик](https://codeforces.com/contest/2258/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/2258/A%20-%20%D0%9D%D0%B5%D1%87%D1%91%D1%82%D0%BD%D1%8B%D0%B9%20%D0%BB%D0%B0%D1%81%D1%82%D0%B8%D0%BA/solution.cpp) |
 | 2259A | [Школа языка Му](https://codeforces.com/contest/2259/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/2259/A%20-%20%D0%A8%D0%BA%D0%BE%D0%BB%D0%B0%20%D1%8F%D0%B7%D1%8B%D0%BA%D0%B0%20%D0%9C%D1%83/solution.cpp) |
+| 2259B | [Minus Two](https://codeforces.com/contest/2259/problem/B) | Unrated | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/2259/B%20-%20Minus%20Two/solution.cpp) |
 | 2259C | [101](https://codeforces.com/contest/2259/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/2259/C%20-%20101/solution.cpp) |
 
 ### binary search
