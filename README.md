@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 144 | 22 |
+| 145 | 22 |
 
 ---
 
@@ -29,8 +29,8 @@
 - [greedy](#greedy) (43)
 - [hashing](#hashing) (2)
 - [implementation](#implementation) (47)
-- [math](#math) (57)
-- [number theory](#number-theory) (15)
+- [math](#math) (58)
+- [number theory](#number-theory) (16)
 - [sortings](#sortings) (15)
 - [strings](#strings) (16)
 - [two pointers](#two-pointers) (2)
@@ -367,6 +367,7 @@
 | 2236A | [Игры в поезде](https://codeforces.com/contest/2236/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/2236/A%20-%20%D0%98%D0%B3%D1%80%D1%8B%20%D0%B2%20%D0%BF%D0%BE%D0%B5%D0%B7%D0%B4%D0%B5/solution.cpp) |
 | 2241A | [Дели и властвуй](https://codeforces.com/contest/2241/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/2241/A%20-%20%D0%94%D0%B5%D0%BB%D0%B8%20%D0%B8%20%D0%B2%D0%BB%D0%B0%D1%81%D1%82%D0%B2%D1%83%D0%B9/solution.cpp) |
 | 2258B1 | [Нарезка моркови (простая версия)](https://codeforces.com/contest/2258/problem/B1) | Unrated | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/2258/B1%20-%20%D0%9D%D0%B0%D1%80%D0%B5%D0%B7%D0%BA%D0%B0%20%D0%BC%D0%BE%D1%80%D0%BA%D0%BE%D0%B2%D0%B8%20(%D0%BF%D1%80%D0%BE%D1%81%D1%82%D0%B0%D1%8F%20%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F)/solution.cpp) |
+| 2260B | [Монокарп и проекты](https://codeforces.com/contest/2260/problem/B) | Unrated | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/2260/B%20-%20%D0%9C%D0%BE%D0%BD%D0%BE%D0%BA%D0%B0%D1%80%D0%BF%20%D0%B8%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B/solution.cpp) |
 
 ### number theory
 
@@ -387,6 +388,7 @@
 | 1985B | [Максимальная сумма кратных чисел](https://codeforces.com/contest/1985/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1985/B%20-%20%D0%9C%D0%B0%D0%BA%D1%81%D0%B8%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F%20%D1%81%D1%83%D0%BC%D0%BC%D0%B0%20%D0%BA%D1%80%D0%B0%D1%82%D0%BD%D1%8B%D1%85%20%D1%87%D0%B8%D1%81%D0%B5%D0%BB/solution.cpp) |
 | 2234A | [Евклид, последовательность, два числа](https://codeforces.com/contest/2234/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/2234/A%20-%20%D0%95%D0%B2%D0%BA%D0%BB%D0%B8%D0%B4%2C%20%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C%2C%20%D0%B4%D0%B2%D0%B0%20%D1%87%D0%B8%D1%81%D0%BB%D0%B0/solution.cpp) |
 | 2241A | [Дели и властвуй](https://codeforces.com/contest/2241/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/2241/A%20-%20%D0%94%D0%B5%D0%BB%D0%B8%20%D0%B8%20%D0%B2%D0%BB%D0%B0%D1%81%D1%82%D0%B2%D1%83%D0%B9/solution.cpp) |
+| 2260B | [Монокарп и проекты](https://codeforces.com/contest/2260/problem/B) | Unrated | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/2260/B%20-%20%D0%9C%D0%BE%D0%BD%D0%BE%D0%BA%D0%B0%D1%80%D0%BF%20%D0%B8%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B/solution.cpp) |
 
 ### sortings
 
