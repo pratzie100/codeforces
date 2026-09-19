@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 146 | 22 |
+| 147 | 22 |
 
 ---
 
@@ -26,7 +26,7 @@
 - [geometry](#geometry) (2)
 - [graph matchings](#graph-matchings) (1)
 - [graphs](#graphs) (1)
-- [greedy](#greedy) (43)
+- [greedy](#greedy) (44)
 - [hashing](#hashing) (2)
 - [implementation](#implementation) (48)
 - [math](#math) (58)
@@ -214,6 +214,7 @@
 | 405A | [Переключение гравитации](https://codeforces.com/contest/405/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/405/A%20-%20%D0%9F%D0%B5%D1%80%D0%B5%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B3%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D0%B0%D1%86%D0%B8%D0%B8/solution.cpp) |
 | 489B | [Бал в БерлГУ](https://codeforces.com/contest/489/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/489/B%20-%20%D0%91%D0%B0%D0%BB%20%D0%B2%20%D0%91%D0%B5%D1%80%D0%BB%D0%93%D0%A3/solution.cpp) |
 | 514A | [Чубакка и число](https://codeforces.com/contest/514/problem/A) | 1200 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/514/A%20-%20%D0%A7%D1%83%D0%B1%D0%B0%D0%BA%D0%BA%D0%B0%20%D0%B8%20%D1%87%D0%B8%D1%81%D0%BB%D0%BE/solution.cpp) |
+| 556A | [Дело о нулях и единицах](https://codeforces.com/contest/556/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/556/A%20-%20%D0%94%D0%B5%D0%BB%D0%BE%20%D0%BE%20%D0%BD%D1%83%D0%BB%D1%8F%D1%85%20%D0%B8%20%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D0%B0%D1%85/solution.cpp) |
 | 1374C | [Перемещай скобки](https://codeforces.com/contest/1374/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1374/C%20-%20%D0%9F%D0%B5%D1%80%D0%B5%D0%BC%D0%B5%D1%89%D0%B0%D0%B9%20%D1%81%D0%BA%D0%BE%D0%B1%D0%BA%D0%B8/solution.cpp) |
 | 1440B | [Сумма медиан](https://codeforces.com/contest/1440/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1440/B%20-%20%D0%A1%D1%83%D0%BC%D0%BC%D0%B0%20%D0%BC%D0%B5%D0%B4%D0%B8%D0%B0%D0%BD/solution.cpp) |
 | 1471A | [Странный массив](https://codeforces.com/contest/1471/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/1471/A%20-%20%D0%A1%D1%82%D1%80%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9%20%D0%BC%D0%B0%D1%81%D1%81%D0%B8%D0%B2/solution.cpp) |
