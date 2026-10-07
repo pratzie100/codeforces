@@ -6,14 +6,14 @@
 
 | Total Problems | Topics |
 |---|---|
-| 151 | 22 |
+| 152 | 22 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [*special](#special) (2)
-- [Uncategorized](#uncategorized) (22)
+- [Uncategorized](#uncategorized) (23)
 - [binary search](#binary-search) (4)
 - [bitmasks](#bitmasks) (3)
 - [brute force](#brute-force) (28)
@@ -70,6 +70,7 @@
 | 2266B | [Три кучки](https://codeforces.com/contest/2266/problem/B) | Unrated | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/2266/B%20-%20%D0%A2%D1%80%D0%B8%20%D0%BA%D1%83%D1%87%D0%BA%D0%B8/solution.cpp) |
 | 2275A | [В поисках удобства](https://codeforces.com/contest/2275/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/2275/A%20-%20%D0%92%20%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%B0%D1%85%20%D1%83%D0%B4%D0%BE%D0%B1%D1%81%D1%82%D0%B2%D0%B0/solution.cpp) |
 | 2275B | [Не пошло в печать](https://codeforces.com/contest/2275/problem/B) | Unrated | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/2275/B%20-%20%D0%9D%D0%B5%20%D0%BF%D0%BE%D1%88%D0%BB%D0%BE%20%D0%B2%20%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D1%8C/solution.cpp) |
+| 2275C | [Неразделённая любовь](https://codeforces.com/contest/2275/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/pratzie100/codeforces/blob/HEAD/2275/C%20-%20%D0%9D%D0%B5%D1%80%D0%B0%D0%B7%D0%B4%D0%B5%D0%BB%D1%91%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%BB%D1%8E%D0%B1%D0%BE%D0%B2%D1%8C/solution.cpp) |
 
 ### binary search
 
